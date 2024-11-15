@@ -2,63 +2,1625 @@
     "projectList": [
         {
             "id": 1,
-            "title": "",
-            "description": "",
             "status": false,
-            "vacancy": [],
-            "images": [],
-            "learning": [],
-            "interviews": [],
-            "experience": [],
-            "history": [],
+            "title": {
+                "ru": "Преподователь",
+                "tj": "Устод",
+                "en": "Teacher"
+            },
+            "description": {
+                "en":"The teaching profession is not just a job, but a mission that requires special personal qualities and professional skills. A teacher is a mentor who helps students develop their potential, teaches them to think critically, make informed decisions, and work in teams. To become a teacher, one must have a relevant degree, undergo pedagogical practice, and possess important qualities such as patience, responsibility, and strong communication skills. A modern teacher not only imparts knowledge but also creates an educational environment where students can express their creative and intellectual abilities. In their work, teachers actively use various methods, such as active learning, critical thinking, and the integration of technology (e.g., online learning and multimedia tools). An essential aspect of the profession is continuous professional development, as educational standards and technologies are rapidly changing.",
+                "ru": "Профессия учителя — это не просто работа, а миссия, которая требует особых личных качеств и профессиональных навыков. Учитель является наставником, который помогает учащимся развивать их потенциал, учит думать критически, принимать осознанные решения и работать в команде. Для того чтобы стать учителем, необходимо иметь профильное образование, пройти педагогическую практику и обладать рядом важных качеств, таких как терпимость, ответственность и коммуникабельность. Современный учитель не только передает знания, но и создает образовательную среду, где учащиеся могут реализовать свои творческие и интеллектуальные способности. В работе учителя активно используются различные методики, такие как активное обучение, критическое мышление и использование технологий (например, онлайн-обучение и мультимедийные инструменты). Важным аспектом профессии является постоянное профессиональное развитие, поскольку образовательные стандарты и технологии быстро меняются.",
+                "tj": "Пешаи омӯзгор танҳо як кор нест, балки як миссия аст, ки сифатҳои махсуси шахсӣ ва малакаҳои касбиро талаб мекунад. Омӯзгор як роҳнамо мебошад, ки кӯмак мекунад, ки донишҷӯён потенсиали худро рушд диҳанд, онҳоро ба тафаккури интиқодӣ, қабул кардани қарорҳои огоҳона ва кор кардани гурӯҳӣ меомӯзад. Барои табдил шудан ба омӯзгор, зарур аст, ки таҳсили махсусе дошта бошед, амалиёти педагогиро гузаронед ва ба як қатор сифатҳои муҳим, ба монанди сабр, масъулият ва қобилиятҳои хуби муошират, доро бошед. Омӯзгори муосир на танҳо дониш меомӯзад, балки муҳити таълимиро эҷод мекунад, ки дар он донишҷӯён метавонанд қобилиятҳои эҷодӣ ва зеҳниро намаён кунанд. Дар кори худ, омӯзгорон усулҳои гуногунро истифода мебаранд, ба монанди омӯзиши фаъол, тафаккури интиқодӣ ва истифодаи технологияҳо (масалан, таълим онлайн ва воситаҳои мультимедиявӣ). Яке аз ҷузъҳои муҳимтари ин касб, рушд ва такмили доимии касбӣ мебошад, зеро меъёрҳои таълимӣ ва технологияҳо тез-тез тағйир меёбанд."
+            },
+            "vacancy": [
+                {
+                    "id":1,
+                    "title":{
+                        "en":"Mathematics Teacher",
+                        "ru":"Учитель математики",
+                        "tj":"Омӯзгори риёзӣ"
+                    },
+                    "conditions":{
+                        "en":"Full-time position, stable work at an urban school, opportunities for professional development.",
+                        "ru":"Полная ставка, стабильная работа в городской школе, возможность повышения квалификации.",
+                        "tj":"Вақти пурра, кор дар мактаби шаҳрӣ, имконият барои таҳсили касбӣ."
+                    },
+                    "salary": {
+                        "en":"1,500-2,000 somoni per month",
+                        "ru":"1,500-2,000 сомони в месяц",
+                        "tj":"1,500-2,000 сомонӣ дар моҳ"
+                    },
+                    "location" : {
+                        "en":"Dushanbe",
+                        "ru":"Душанбе",
+                        "tj":"Душанбе"
+                    }
+                },
+                {
+                    "id":2,
+                    "title":{
+                        "en":"English Teacher",
+                        "ru":"Учитель английского языка",
+                        "tj":"Омӯзгори забони англисӣ"
+                    },
+                    "conditions":{
+                        "en":"Part-time position, work at a private school, opportunities for professional growth.",
+                        "ru":"Часть рабочего времени, работа в частной школе, возможность профессионального роста.",
+                        "tj":"Вақти нимрӯзӣ, кор дар мактаби хусусӣ, имконият барои рушд ва омӯзиш."
+                    },
+                    "salary": {
+                        "en":"1,200 somoni per month",
+                        "ru":"1,200 сомони в месяц",
+                        "tj":"1,200 сомонӣ дар моҳ"
+                    },
+                    "location" : {
+                        "en":"Khujand",
+                        "ru":"Худжанд",
+                        "tj":"Худжанд"
+                    }
+                },
+                {
+                    "id":3,
+                    "title":{
+                        "en":"Primary School Teacher",
+                        "ru":"Учитель начальных классов",
+                        "tj":"Омӯзгори синфҳои ибтидоӣ"
+                    },
+                    "conditions":{
+                        "en":"Full-time position, work at a rural school, accommodation provided.",
+                        "ru":"Полный рабочий день, работа в сельской школе, предоставление жилья.",
+                        "tj":"Вақти пурра, кор дар мактаби деҳотӣ, фароҳам овардани ҷойи истиқомат."
+                    },
+                    "salary": {
+                        "en":"1,000 somoni per month",
+                        "ru":"1,000 сомони в месяц",
+                        "tj":"1,000 сомонӣ дар моҳ"
+                    },
+                    "location" : {
+                        "en":"Hisor",
+                        "ru":"Гиссар",
+                        "tj":"Хисор"
+                    }
+                },
+                {
+                    "id":4,
+                    "title":{
+                        "en":"Physics Teacher",
+                        "ru":"Учитель физики",
+                        "tj":"Омӯзгори физика"
+                    },
+                    "conditions":{
+                        "en":"0.75 position, work at a secondary school, professional development, on-site support.",
+                        "ru":"Ставка 0.75, работа в средней школе, профессиональное развитие, поддержка на месте.",
+                        "tj":"0.75 ставка, кор дар мактаби миёна, рушди касбӣ, кӯмак дар ҷойи кор."
+                    },
+                    "salary": {
+                        "en":"1,800 somoni per month",
+                        "ru":"1,800 сомони в месяц",
+                        "tj":"1,800 сомонӣ дар моҳ"
+                    },
+                    "location" : {
+                        "en":"Kulyab",
+                        "ru":"Куляб",
+                        "tj":"Кулоб"
+                    }
+                },
+                {
+                    "id":5,
+                    "title":{
+                        "en":"Chemistry Teacher",
+                        "ru":"Учитель химии",
+                        "tj":"Омӯзгори химия"
+                    },
+                    "conditions":{
+                        "en":"Full-time position, work at a public school, regular professional development courses.",
+                        "ru":"Полная ставка, работа в государственной школе, регулярные курсы повышения квалификации.",
+                        "tj":"Вақти пурра, кор дар мактаби давлатӣ, курсҳои мунтазами такмили ихтисос."
+                    },
+                    "salary": {
+                        "en":"1,400 somoni per month",
+                        "ru":"1,400 сомони в месяц",
+                        "tj":"1,400 сомонӣ дар моҳ"
+                    },
+                    "location" : {
+                        "en":"Penjikent",
+                        "ru":"Пенджикент",
+                        "tj":"Пенҷикент"
+                    }
+                }
+            ],
+            "images": [
+                {
+                    "id":1,
+                    "img":"./src/assets/images/teacher1.jpg"
+                },
+                {
+                    "id":2,
+                    "img":"./src/assets/images/teacher2.jpg"
+                },
+                {
+                    "id":3,
+                    "img":"./src/assets/images/teacher3.jpg"
+                }
+            ],
+            "learning": [
+                {
+                    "id":1,
+                    "title": {
+                        "en":"University: Tajik State University (TSU)",
+                        "ru":"Университет: Государственный университет Таджикистана (ДУТ)",
+                        "tj":"Донишгоҳи давлатии Тоҷикистон (ДДТ)"
+                    },
+                    "programm": {
+                        "en":"Pedagogy and Psychology",
+                        "ru":"Педагогика и психология",
+                        "tj":"Педагогика ва психология" 
+                    },
+                    "condition": {
+                        "en":" Full-time program, state accreditation, scholarship opportunities, program duration 4 years.",
+                        "ru":"Дневное отделение, государственная аккредитация, возможность получения стипендии, курс длится 4 года.",
+                        "tj":"Вақти пурра, аккредитацияи давлатӣ, имконият барои гирифтани стипендия, давомнокии курс 4 сол." 
+                    },
+                    "location": {
+                        "en":"Dushanbe",
+                        "ru":"Душанбе",
+                        "tj":"Душанбе" 
+                    },
+                    "payment" :{
+                        "en":"Around 4,000 somoni per year",
+                        "ru":"Около 4,000 сомони в год",
+                        "tj":"Такрибан 4,000 сомонӣ дар як сол" 
+                    }
+                },
+                {
+                    "id":2,
+                    "title": {
+                        "en":"Pedagogy and Arts College Dushanbe",
+                        "ru":"Колледж педагогики и искусства Душанбе",
+                        "tj":"Коллеҷи педагогика ва санъат Душанбе"
+                    },
+                    "programm": {
+                        "en":"Primary School Teacher, Preschool Education",
+                        "ru":"Учитель начальных классов, дошкольное образование",
+                        "tj":"Омӯзгори синфҳои ибтидоӣ, таълими дошколӣ" 
+                    },
+                    "condition": {
+                        "en":"Full-time and evening programs, school internships, professional development courses.",
+                        "ru":"Дневное и вечернее отделение, практика в школах города, курсы повышения квалификации.",
+                        "tj":"Вақти пурра ва нимрӯзӣ, амалиёт дар мактабҳои шаҳр, курсҳои такмили ихтисос." 
+                    },
+                    "location": {
+                        "en":"Dushanbe",
+                        "ru":"Душанбе",
+                        "tj":"Душанбе" 
+                    },
+                    "payment" :{
+                        "en":"Around 2,500 somoni per year",
+                        "ru":"Около 2,500 сомони в год",
+                        "tj":"Такрибан 2,500 сомонӣ дар як сол" 
+                    }
+                },
+                {
+                    "id":3,
+                    "title": {
+                        "en":"Khujand State University",
+                        "ru":"Худжандский государственный университет",
+                        "tj":"Донишгоҳи давлатии Худжанд"
+                    },
+                    "programm": {
+                        "en":"Foreign Language Teacher (English, Russian)",
+                        "ru":"Учитель иностранных языков (английский, русский)",
+                        "tj":"Омӯзгори забонҳои хориҷӣ (англисӣ, русӣ)" 
+                    },
+                    "condition": {
+                        "en":"Full-time program, state diploma, access to English-language study materials.",
+                        "ru":"Дневное отделение, диплом государственного образца, доступ к учебным материалам на английском языке.",
+                        "tj":"Вақти пурра, дипломи давлатӣ, дастрасӣ ба маводи таълимӣ бо забони англисӣ." 
+                    },
+                    "location": {
+                        "en":"Khujand",
+                        "ru":"Худжанд",
+                        "tj":"Худжанд" 
+                    },
+                    "payment" :{
+                        "en":"Around 3,000 somoni per year",
+                        "ru":"Около 3,000 сомони в год",
+                        "tj":"Такрибан 3,000 сомонӣ дар як сол" 
+                    }
+                },
+                {
+                    "id":4,
+                    "title": {
+                        "en":"Professional Education College in Penjikent",
+                        "ru":"Колледж профессионального образования в Пенджикенте",
+                        "tj":"Коллеҷи таълими касбӣ дар Пенҷикент"
+                    },
+                    "programm": {
+                        "en":"Pedagogy and Primary Education",
+                        "ru":"Педагогика и начальное образование",
+                        "tj":"Педагогика ва таълими ибтидоӣ" 
+                    },
+                    "condition": {
+                        "en":"Full-time program, internships at local schools, employment opportunities after graduation.",
+                        "ru":"Дневное отделение, практика в местных школах, возможность трудоустройства после окончания.",
+                        "tj":"Вақти пурра, амалиёт дар мактабҳои маҳаллӣ, имконият барои кор ёфтан пас аз хатм." 
+                    },
+                    "location": {
+                        "en":"Penjikent",
+                        "ru":"Пенджикент",
+                        "tj":"Пенҷикент" 
+                    },
+                    "payment" :{
+                        "en":"Free for local residents, 1,000 somoni for non-residents",
+                        "ru":"Бесплатное обучение для местных жителей, 1,000 сомони для иногородних",
+                        "tj":"Барои сокинони маҳаллӣ ройгон, барои дигарон 1,000 сомонӣ" 
+                    }
+                }
+            ],
+            "interviews": [
+                {
+                    "id":1,
+                    "title":{
+                        "en":"Interview with History Teacher from India – Rajesh Kumar",
+                        "ru":"Интервью с учителем истории из Индии – Раджеш Кумар",
+                        "tj":"Мусоҳиба бо омӯзгори таърих аз Ҳиндустон – Раджеш Кумар" 
+                    },
+                    "quetion1": {
+                        "en":"— Rajesh, tell us about your work as a teacher.",
+                        "ru":"— Раджеш, расскажите о вашей работе учителя.",
+                        "tj":"— Раджеш, дар бораи кори худ ҳамчун омӯзгор гӯед." 
+                    },
+                    "answer1": {
+                        "en":"— I teach history at a middle school in New Delhi. For me, as a teacher, it's not just about passing on facts, but inspiring students. We study great leaders, such as Mahatma Gandhi, and learn from their example how to change the world by following principles of non-violence and justice. History helps us understand how important our actions are for the future. I try to explain this to my students.",
+                        "ru":"— Я преподаю историю в средней школе в Нью-Дели. Для меня, как для учителя, важно не только передать факты, но и вдохновить учеников. Мы изучаем великих лидеров, таких как Махатма Ганди, и учимся на их примере, как можно изменить мир, следуя принципам ненасилия и справедливости. История дает нам понимание того, как важны наши действия для будущего. Я стараюсь объяснять это своим ученикам.",
+                        "tj":"— Ман таърихро дар як мактаби миёна дар Ню-Дели таълим медиҳам. Барои ман, ҳамчун омӯзгор, на танҳо интиқоли маълумот муҳим аст, балки илҳом бахшидан ба донишҷӯён. Мо раҳбарони бузург, ба монанди Маҳатма Гандӣ,ро меомӯзем ва аз мисоли онҳо меомӯзем, ки чӣ гуна метавон дунёро бо пайравӣ аз принсипҳои беиҷозат ва адолат тағйир дод. Таърих ба мо фаҳмиш медиҳад, ки чӣ қадар амали мо барои оянда муҳим аст. Ман кӯшиш мекунам, ки инро ба донишҷӯён фаҳмонам." 
+                    },
+                    "quetion2": {
+                        "en":"— How do you use technology in the classroom?",
+                        "ru":"— А как вы используете технологии в классе?",
+                        "tj":"— Шумо чӣ гуна технологияҳоро дар синф истифода мебаред?" 
+                    },
+                    "answer2": {
+                        "en":"— We use online resources to search for information and analyze historical events. This helps my students broaden their horizons.",
+                        "ru":"— Мы используем онлайн-ресурсы для поиска информации и анализа исторических событий. Это помогает моим ученикам расширить горизонты.",
+                        "tj":"— Мо аз манбаъҳои онлайн барои ҷустуҷӯи маълумот ва таҳлил кардани ҳодисаҳои таърихӣ истифода мебарем. Ин ба донишҷӯён кӯмак мекунад, ки олами худро васеъ кунанд." 
+                    },
+                    "avtor":{
+                        "en":"Rajesh Kumar",
+                        "ru":"Раджеш Кумар",
+                        "tj":"Раджеш Кумар"
+                    },
+                    "location": {
+                        "en":"India",
+                        "ru":"Индия",
+                        "tj":"Ҳиндустон"
+                    }
+                },
+                {
+                    "id":2,
+                    "title":{
+                        "en":"Interview with Physics Teacher from Egypt – Amira Said",
+                        "ru":"Интервью с учителем физики из Египта – Амира Саид",
+                        "tj":"Мусоҳиба бо омӯзгори физика аз Миср – Амира Саид" 
+                    },
+                    "quetion1": {
+                        "en":"— Amira, tell us why teaching physics is important for your students.",
+                        "ru":"— Амира, расскажите о том, как преподавание физики важно для ваших учеников.",
+                        "tj":"— Амира, дар бораи аҳамияти таълими физика барои донишҷӯёнатон гӯед." 
+                    },
+                    "answer1": {
+                        "en":"— In Cairo, I teach physics in high school. For us Egyptians, physics is not just a science, but a philosophy, especially when we remember great scientists like Ahmed al-Farabi, whose ideas helped develop the foundations of science. I explain to my students that physics is the foundation for many modern technologies and solutions.",
+                        "ru":"— В Каире я преподаю физику в старшей школе. Для нас, египтян, физика не просто наука, а философия, особенно если вспомнить великих ученых, таких как Ахмед аль-Фараби, чьи идеи помогли развить основы науки. Я объясняю ученикам, что физика — это основа для множества современных технологий и решений.",
+                        "tj":"— Ман дар Қоҳира физикаро дар мактаби миёна таълим медиҳам. Барои мо, мисриҳо, физика танҳо як илм нест, балки як фалсафа аст, хусусан вақте ки донишмандонеро, ба монанди Аҳмед ал-Фарабӣ, ёдовар мешавем, ки фикрҳояшон кӯмак карданд, ки асосҳои илмӣ рушд ёбанд. Ман ба донишҷӯён мефаҳмонам, ки физика асоси бисёре аз технологияи муосир ва ҳалли мушкилот мебошад" 
+                    },
+                    "quetion2": {
+                        "en":"— What methods do you use in your lessons?",
+                        "ru":"— Какие методы вы применяете на уроках?",
+                        "tj":"— Шумо кадом усулҳоро дар дарсҳо истифода мебаред?" 
+                    },
+                    "answer2": {
+                        "en":"— I use practical experiments so that students can experience the physical laws firsthand. This helps them better understand how theory works in real life.",
+                        "ru":"— Я использую практические эксперименты, чтобы студенты могли почувствовать физические законы на себе. Это помогает им лучше понять, как теория работает в реальной жизни.",
+                        "tj":"— Ман таҷрибаҳои амалӣ истифода мебарам, то донишҷӯён битавонанд қонунҳои физикаро дар амал ҳис кунанд. Ин кӯмак мекунад, ки онҳо беҳтар фаҳманд, ки чӣ гуна назария дар ҳаёти воқеӣ кор мекунад." 
+                    },
+                    "avtor":{
+                        "en":"Amira Said",
+                        "ru":"Амира Саид",
+                        "tj":"Амира Саид"
+                    },
+                    "location": {
+                        "en":"Egypt",
+                        "ru":"Египта",
+                        "tj":"Миср"
+                    }
+                },
+                {
+                    "id":3,
+                    "title":{
+                        "en":"Interview with Mathematics Teacher from China – Li Min",
+                        "ru":"Интервью с учителем математики из Китая – Ли Минь",
+                        "tj":"Мусоҳиба бо омӯзгори риёзӣ аз Чин – Ли Мин" 
+                    },
+                    "quetion1": {
+                        "en":"— Li Min, how do you motivate your students?",
+                        "ru":"— Ли Минь, как вы мотивируете своих учеников?",
+                        "tj":"— Ли Минь, шумо чӣ гуна донишҷӯёнатонро ташвиқ мекунед?" 
+                    },
+                    "answer1": {
+                        "en":"— Mathematics is very important in China, and I teach my students to seek harmony in numbers, as great Chinese scholars like Zhou Gong did. For me, mathematics is not just about solving problems; it is a way to develop logic and discipline.",
+                        "ru":"— Математика в Китае очень важна, и я учу своих студентов искать гармонию в числах, как это делали великие китайские ученые, например, Чжоу Гун. Для меня математика — это не просто решение задач, а способ развить логику и дисциплину.",
+                        "tj":"— Риёзӣ дар Чин хеле муҳим аст, ва ман ба донишҷӯён меомӯзам, ки дар ададҳо ҳусни ҳамоҳангиро ҷустуҷӯ кунанд, чун чеҳраҳои бузурги илмии чинӣ, мисли Чжоу Гун. Баро ман, риёзӣ на танҳо ҳал кардани вазифаҳо аст, балки роҳе барои рушд додани мантиқ ва интизом мебошад." 
+                    },
+                    "quetion2": {
+                        "en":"— What role do modern technologies play in your work?",
+                        "ru":"— Какую роль играют современные технологии в вашей работе?",
+                        "tj":"— Технологияҳои муосир дар кори шумо чӣ нақше доранд?" 
+                    },
+                    "answer2": {
+                        "en":"— I use mathematical applications and modeling software. This helps students see in practice how various mathematical theories work.",
+                        "ru":"— Я использую математические приложения и программы для моделирования. Это помогает студентам на практике видеть, как работают различные математические теории.",
+                        "tj":"— Ман барномаҳои риёзӣ ва нармафзорҳои моделсозиро истифода мебарам. Ин ба донишҷӯён кӯмак мекунад, ки амалан бибинанд, ки чӣ гуна назарияҳои риёзӣ кор мекунанд." 
+                    },
+                    "avtor":{
+                        "en":"Li Min",
+                        "ru":"Ли Минь",
+                        "tj":"Ли Мин"
+                    },
+                    "location": {
+                        "en":"China",
+                        "ru":"Китая",
+                        "tj":"Чин"
+                    }
+                },
+                {
+                    "id":4,
+                    "title":{
+                        "en":"Interview with Literature Teacher from Iran – Farid Zarif",
+                        "ru":"Интервью с учителем литературы из Ирана – Фарид Зариф",
+                        "tj":"Мусоҳиба бо омӯзгори адабиёт аз Эрон – Фарид Зариф" 
+                    },
+                    "quetion1": {
+                        "en":"— Farid, what is most important to you in teaching literature?",
+                        "ru":"— Фарид, что для вас самое важное в преподавании литературы?",
+                        "tj":"— Фарид, барои шумо дар таълими адабиёт муҳимтарин чӣ аст?" 
+                    },
+                    "answer1": {
+                        "en":"— I teach Persian literature in Tehran. It's important for students not only to read great works like the Shahnameh by Ferdowsi, but also to understand their deep philosophical meaning. Literature teaches us to think and feel, to see the world from different perspectives.",
+                        "ru":"— Я преподаю персидскую литературу в Тегеране. Важно, чтобы ученики не только читали великие произведения, такие как Шахнаме Фирдоуси, но и понимали их глубокий философский смысл. Литература учит нас думать и чувствовать, видеть мир с разных точек зрения.",
+                        "tj":"— Ман адабиёти форсиро дар Теҳрон таълим медиҳам. Муҳим аст, ки донишҷӯён на танҳо асарҳои бузург, монанди Шахнаме Фирдосӣ, хонанд, балки маънии фалсафии амиқи онҳоро фаҳманд. Адабиёт ба мо меомӯзад, ки фикр кунем ва эҳсос кунем, ҷаҳонро аз нуқтаҳои гуногун бубинем." 
+                    },
+                    "quetion2": {
+                        "en":"— What books do you consider important for study?",
+                        "ru":"— Какие книги вы считаете важными для изучения?",
+                        "tj":"— Кадом китобҳоро шумо барои омӯзиш муҳим мешуморед?" 
+                    },
+                    "answer2": {
+                        "en":"— I always recommend my students read the works of Rumi and Hafez, as they teach love and self-awareness. These lessons are important not only for Iran, but for the whole world.",
+                        "ru":"— Я всегда рекомендую своим ученикам читать работы Руми и Хафиза, они учат любви и самопознанию. Эти уроки важны не только для Ирана, но и для всего мира.",
+                        "tj":"— Ман ҳамеша ба донишҷӯён тавсия медиҳам, ки асарҳои Руми ва Ҳофизро бихонанд, зеро онҳо муҳаббат ва худшиносиро меомӯзонанд. Ин дарсҳо барои Эрон ва барои тамоми ҷаҳон муҳиманд." 
+                    },
+                    "avtor":{
+                        "en":"Farid Zarif",
+                        "ru":"Фарид Зариф",
+                        "tj":"Фарид Зариф"
+                    },
+                    "location": {
+                        "en":"Iran",
+                        "ru":"Ирана",
+                        "tj":"Эрон"
+                    }
+                }
+            ],
+            "experience": {
+                "en": "In the teaching profession, there are several stages: a junior teacher (1-3 years of experience) masters the basic teaching skills, a middle-level teacher (3-5 years) confidently applies various methods, a senior teacher (5+ years) actively implements innovations and may serve as a mentor, while a master teacher (10+ years) develops instructional materials and actively influences educational processes.",
+                "ru":"В профессии учителя можно выделить несколько этапов: молодой специалист (1-3 года опыта) осваивает основные навыки преподавания, учитель средней квалификации (3-5 лет) уверенно применяет различные методики, опытный учитель (5+ лет) активно внедряет инновации и может быть наставником, а педагог-эксперт (10+ лет) разрабатывает методические материалы и активно влияет на образовательные процессы.",
+                "tj":"Дар пешаи омӯзгорӣ чандин марҳила мавҷуд аст: оҳангомози нав (1-3 сол таҷриба) маҳорати асосии таълимро меомӯзад, оҳангомози миёна (3-5 сол) бо боварӣ усулҳои гуногунро истифода мебарад, оҳангомози таҷрибадор (5+ сол) бо фаъолиятҳои навоварона машғул аст ва метавонад ҳамчун мураббӣ хизмат кунад, ва оҳангомози устод (10+ сол) маводи методиро таҳия мекунад ва ба равандҳои таълимии таъсир мерасонад."
+            },
+            "history": {
+                "en": "The teaching profession has existed since ancient times. In Ancient Egypt and Mesopotamia, teachers were often priests who taught children religion and crafts. In Ancient Greece, philosophers such as Socrates and Plato laid the foundations of scientific education, and Plato founded the first academy. In the Middle Ages, teachers were often monks and priests who taught in monasteries and schools. With the development of universities during the Renaissance, education became more accessible, and the teaching profession began to take shape as an important social role. In the 19th century, with the advent of mass education, teachers began working in public schools, and the profession became a cornerstone for the development of society. Today, teachers play a key role in transferring knowledge and educating future generations.",
+                "ru":"Профессия учителя существует с древнейших времен. В Древнем Египте и Месопотамии учителями часто были жрецы, обучавшие детей религии и ремеслам. В Древней Греции философы, такие как Сократ и Платон, заложили основы научного образования, а Платон основал первую академию. В Средневековье учителями становились монахи и священники, обучающие в монастырях и школах. С развитием университетов в эпоху Ренессанса образование стало доступнее, и профессия учителя начала оформляться как важная социальная роль. В 19 веке, с появлением массового образования, учителя стали работать в государственных школах, а профессия стала основой для развития общества. Сегодня учителя играют ключевую роль в передаче знаний и воспитании будущих поколений.",
+                "tj": "Пешаи омӯзгорӣ аз замонҳои қадим вуҷуд дошт. Дар Мисри Древӣ ва Месопотамия омӯзгорон аксар вақт овезон буданд, ки ба кӯдакон дин ва ҳунарҳо меомӯхтанд. Дар Юнони Древӣ, фалсафаҳои бузург, монанди Сократ ва Платон, асосҳои таълими илмӣ гузоштанд ва Платон аввалин академияро таъсис дод. Дар давраи Средневековие, омӯзгорон аксар вақт расулон ва авангардҳо буданд, ки дар манзилҳо ва мактабҳо таълим медоданд. Бо рушди донишгоҳҳо дар давраи Ренессанс, таълим ба дасти бештар одамон расид ва профессияи омӯзгорӣ ба як нақшаи муҳими ҷамъиятӣ табдил ёфт. Дар асри XIX, бо паҳн кардани таълими оммавӣ, омӯзгорон дар мактабҳои давлатӣ фаъолият мекарданд ва профессия ба асоси рушди ҷамъият табдил ёфт. Имрӯз, омӯзгорон нақши калидӣ дар интиқоли дониш ва таълими наслҳои оянда мебозанд."
+            },
             "diagram": [],
-            "active": [],
-            "needs": []
+            "active": {
+                "en":"At the same time, more than 60% of teachers in Tajikistan have work experience, but only 20-30% of them update their knowledge and skills, particularly in the area of modern pedagogical technologies and innovative teaching methods.",
+                "ru":"При этом более 60% учителей в Таджикистане имеют опыт работы, но лишь 20-30% из них обновляют свои знания и навыки, особенно в области современных педагогических технологий и инновационных методов обучения.",
+                "tj":"Дар ҳамин ҳол, беш аз 60% омӯзгорони Таджикистон таҷрибаи корӣ доранд, вале танҳо 20-30% аз онҳо дониш ва маҳорати худро нав мекунанд, махсусан дар соҳаи технологияҳои педагогии муосир ва усулҳои навоваронаи таълим." 
+            },
+            "needs": {
+                "en":"In Tajikistan, there is a shortage of teachers, especially in rural areas, where about 30% of schools face a lack of qualified staff. This is due to low salaries and limited opportunities for professional growth.",
+                "ru":"В Таджикистане наблюдается нехватка учителей, особенно в сельских районах, где около 30% школ испытывают дефицит квалифицированных кадров. Это связано с низкими зарплатами и ограниченными возможностями для профессионального роста.",
+                "tj":"Дар Таджикистон, дар минтақаҳои деҳот камбуди омӯзгорон мушоҳида мешавад, ки тақрибан 30% мактабҳо бо камбуди кадрҳои квалификатсияшуда рӯ ба рӯ мешаванд. Ин бо арзиши пасти маош ва имкониятҳои маҳдуди рушд дар соҳаи касбӣ вобаста аст." 
+            }
         },
         {
             "id": 2,
-            "title": "",
-            "description": "",
             "status": false,
-            "vacancy": [],
-            "images": [],
-            "learning": [],
-            "interviews": [],
-            "experience": [],
-            "history": [],
+            "title": {
+                "en": "Astronomer",
+                "ru":"Астроном",
+                "tj":"Астроном"
+            },
+            "description": {
+                "en":"The profession of an astronomer is a path to understanding the cosmos and its laws. Astronomers study star systems, black holes, galaxies, and other objects beyond our planet. They use complex instruments such as optical and radio telescopes, as well as various mathematical models and computer simulations to analyze the data collected. One of the main areas of an astronomer's work is planetary science, the study of planets and their moons. Important tasks for astronomers also include researching the cosmic microwave background, studying the structure of the universe, and searching for possible signs of life on other planets. To work in this field, a scientific education in physics, mathematics, and astronomy is required.The profession of an astronomer demands patience and attention to detail, as space research can take years. At the same time, this work is incredibly exciting for those who seek to unravel the mysteries of the universe.",
+                "ru":"Профессия астронома — это путь к познанию космоса и его законов. Астрономы изучают звездные системы, черные дыры, галактики и другие объекты, которые лежат за пределами нашей планеты. Они используют сложные приборы, такие как оптические и радиотелескопы, а также различные математические модели и компьютерные симуляции для анализа полученных данных. Одним из основных направлений работы астронома является планетология, изучение планет и их спутников. Важными задачами астрономов являются также исследование космического микроволнового фона, изучение структуры Вселенной и поиск возможных признаков жизни на других планетах. Для работы в этой сфере нужно иметь научное образование в области физики, математики и астрономии. Профессия астронома требует терпения и внимательности, так как исследования космоса могут занимать годы. В то же время эта работа невероятно увлекательна для людей, стремящихся разгадывать тайны Вселенной.",
+                "tj":"Пешаи астроном — ин роҳи фаҳмидани кайҳон ва қавоидҳои он аст. Астрономҳо системаҳояи ситорагон, нуқтаҳои сиёҳ, галактикаҳо ва дигар объектҳои берун аз планетамонро омӯхта, таҳқиқ мекунанд. Онҳо аз асбобҳои мураккаб, монанди телескопҳои оптикӣ ва радиотелескопҳо истифода мебаранд, ҳамчунин моделҳои математикӣ ва симулятсияҳои компютериро барои таҳлил кардани маълумоти ҷамъоваришударо ба кор мебаранд. Яке аз самтҳои асосии кор дар астрономия — ин планетология аст, ки омӯхтани планетаҳо ва моҳҳои онҳо мебошад. Задаҳои муҳим барои астрономҳо ҳамчунин таҳқиқи фонди микроволнаи кайҳонӣ, таҳлили сохтори Вселена ва ҷустуҷӯи имконпазирӣ барои пайдо кардани нишонаҳои ҳаёт дар дигар планетҳо мебошад. Барои кор дар ин соҳа таҳсилоти илмӣ дар соҳаҳои физика, математика ва астрономия лозим аст. Пешаи астроном талаб мекунад, ки сабр ва диққат вафодор бошад, зеро таҳқиқи кайҳон метавонад солҳо тӯл кашад. Аммо дар айни ҳол, ин кор барои одамоне, ки мехоҳанд муҳаррики калидии кайҳонро фаҳманд, хеле ҷолиб аст."
+            },
+            "vacancy": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Observatory Astronomer",
+                        "ru": "Астроном обсерватории",
+                        "tj": "Астрономи обсерватория"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, stable work at an astronomical observatory, opportunities for scientific development.",
+                        "ru": "Полная ставка, стабильная работа в астрономической обсерватории, возможность научного развития.",
+                        "tj": "Вақти пурра, кор дар обсерваторияи астрономӣ, имконият барои рушди илмӣ."
+                    },
+                    "salary": {
+                        "en": "3,500-4,000 somoni per month",
+                        "ru": "3,500-4,000 сомони в месяц",
+                        "tj": "3,500-4,000 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Astrophysicist",
+                        "ru": "Астрофизик",
+                        "tj": "Астрофизик"
+                    },
+                    "conditions": {
+                        "en": "Part-time position, work at a private research institute, opportunities for collaboration with international scientists.",
+                        "ru": "Частичная ставка, работа в частном научном институте, возможность сотрудничества с международными учеными.",
+                        "tj": "Вақти нимрӯзӣ, кор дар институти илмии хусусӣ, имконият барои ҳамкорӣ бо олимони байналмилалӣ."
+                    },
+                    "salary": {
+                        "en": "3,000 somoni per month",
+                        "ru": "3,000 сомони в месяц",
+                        "tj": "3,000 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Khujand",
+                        "ru": "Худжанд",
+                        "tj": "Худжанд"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Planetary Scientist",
+                        "ru": "Планетолог",
+                        "tj": "Планетолог"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, work at an observatory in a rural area, housing provided.",
+                        "ru": "Полная ставка, работа в обсерватории в сельской местности, предоставление жилья.",
+                        "tj": "Вақти пурра, кор дар обсерваторияи деҳотӣ, фароҳам овардани ҷойи истиқомат."
+                    },
+                    "salary": {
+                        "en": "2,800 somoni per month",
+                        "ru": "2,800 сомони в месяц",
+                        "tj": "2,800 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Hisor",
+                        "ru": "Гиссар",
+                        "tj": "Хисор"
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": {
+                        "en": "Cosmologist",
+                        "ru": "Космолог",
+                        "tj": "Космолог"
+                    },
+                    "conditions": {
+                        "en": "0.75 position, work at a secondary research center, professional development, on-site support.",
+                        "ru": "Ставка 0.75, работа в научном центре, профессиональное развитие, поддержка на месте.",
+                        "tj": "0.75 ставка, кор дар маркази илмӣ, рушди касбӣ, кӯмак дар ҷойи кор."
+                    },
+                    "salary": {
+                        "en": "2,800 somoni per month",
+                        "ru": "2,800 сомони в месяц",
+                        "tj": "2,800 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Kulyab",
+                        "ru": "Куляб",
+                        "tj": "Кулоб"
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": {
+                        "en": "Astronomical Researcher",
+                        "ru": "Астрономический исследователь",
+                        "tj": "Олим астрономӣ"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, work at a public observatory, regular scientific workshops and conferences.",
+                        "ru": "Полная ставка, работа в государственной обсерватории, регулярные научные мастер-классы и конференции.",
+                        "tj": "Вақти пурра, кор дар обсерваторияи давлатӣ, курсҳои мунтазами илмӣ ва конференсияҳо."
+                    },
+                    "salary": {
+                        "en": "2,500 somoni per month",
+                        "ru": "2,500 сомони в месяц",
+                        "tj": "2,500 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Penjikent",
+                        "ru": "Пенджикент",
+                        "tj": "Пенҷикент"
+                    }
+                }
+            ],            
+            "images": [
+                {
+                    "id":1,
+                    "img":"./src/assets/images/astronomer3.jpg"
+                },
+                {
+                    "id":2,
+                    "img":"./src/assets/images/astronomer2.jpg"
+                },
+                {
+                    "id":3,
+                    "img":"./src/assets/images/astronomer1.jpg"
+                }
+            ],
+            "learning": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Stellar Exploration at Tajik State University (TSU)",
+                        "ru": "Изучение звезд в Государственном университете Таджикистана (ДУТ)",
+                        "tj": "Таҳқиқоти ситорагон дар Донишгоҳи давлатии Тоҷикистон (ДДТ)"
+                    },
+                    "programm": {
+                        "en": "Astronomy and Astrophysics",
+                        "ru": "Астрономия и астрофизика",
+                        "tj": "Астрономия ва астрофизика"
+                    },
+                    "condition": {
+                        "en": "Full-time program, state accreditation, scholarship opportunities, program duration 4 years.",
+                        "ru": "Дневное отделение, государственная аккредитация, возможность получения стипендии, курс длится 4 года.",
+                        "tj": "Вақти пурра, аккредитацияи давлатӣ, имконият барои гирифтани стипендия, давомнокии курс 4 сол."
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    },
+                    "payment": {
+                        "en": "Around 5,000 somoni per year",
+                        "ru": "Около 5,000 сомони в год",
+                        "tj": "Такрибан 5,000 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Space Adventures at Dushanbe College of Astronomy",
+                        "ru": "Космические приключения в Колледже астрономии Душанбе",
+                        "tj": "Маҷрои кайҳонӣ дар Коллеҷи астрономияи Душанбе"
+                    },
+                    "programm": {
+                        "en": "Space Exploration and Astrobiology",
+                        "ru": "Исследование космоса и астробиология",
+                        "tj": "Тадқиқоти кайҳон ва астробиология"
+                    },
+                    "condition": {
+                        "en": "Full-time and evening programs, internships at research centers, professional development courses.",
+                        "ru": "Дневное и вечернее отделение, практика в исследовательских центрах, курсы повышения квалификации.",
+                        "tj": "Вақти пурра ва нимрӯзӣ, амалиёт дар марказҳои илмию тадқиқотӣ, курсҳои такмили ихтисос."
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    },
+                    "payment": {
+                        "en": "Around 3,500 somoni per year",
+                        "ru": "Около 3,500 сомони в год",
+                        "tj": "Такрибан 3,500 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Exploring the Cosmos at Khujand State University",
+                        "ru": "Исследование космоса в Худжандском государственном университете",
+                        "tj": "Таҳқиқоти кайҳон дар Донишгоҳи давлатии Худжанд"
+                    },
+                    "programm": {
+                        "en": "Astronomy and Planetary Science",
+                        "ru": "Астрономия и планетарные науки",
+                        "tj": "Астрономия ва илмҳои сайёра"
+                    },
+                    "condition": {
+                        "en": "Full-time program, state diploma, access to astronomical research materials.",
+                        "ru": "Дневное отделение, диплом государственного образца, доступ к материалам астрономических исследований.",
+                        "tj": "Вақти пурра, дипломи давлатӣ, дастрасӣ ба маводи таҳқиқоти астрономӣ."
+                    },
+                    "location": {
+                        "en": "Khujand",
+                        "ru": "Худжанд",
+                        "tj": "Худжанд"
+                    },
+                    "payment": {
+                        "en": "Around 4,000 somoni per year",
+                        "ru": "Около 4,000 сомони в год",
+                        "tj": "Такрибан 4,000 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": {
+                        "en": "Cosmic Pathways at Penjikent Space College",
+                        "ru": "Космические пути в Космическом колледже Пенджикента",
+                        "tj": "Роҳҳои кайҳонӣ дар Коллеҷи кайҳонӣ Пенҷикент"
+                    },
+                    "programm": {
+                        "en": "Astrophysics and Space Engineering",
+                        "ru": "Астрофизика и космическая инженерия",
+                        "tj": "Астрофизика ва муҳандисии кайҳонӣ"
+                    },
+                    "condition": {
+                        "en": "Full-time program, internships at space agencies, employment opportunities in the space sector after graduation.",
+                        "ru": "Дневное отделение, практика в космических агентствах, возможность трудоустройства в космическом секторе после окончания.",
+                        "tj": "Вақти пурра, амалиёт дар агентҳои кайҳонӣ, имконият барои кор ёфтан дар бахши кайҳонӣ пас аз хатм."
+                    },
+                    "location": {
+                        "en": "Penjikent",
+                        "ru": "Пенджикент",
+                        "tj": "Пенҷикент"
+                    },
+                    "payment": {
+                        "en": "Free for local residents, 1,500 somoni for non-residents",
+                        "ru": "Бесплатное обучение для местных жителей, 1,500 сомони для иногородних",
+                        "tj": "Барои сокинони маҳаллӣ ройгон, барои дигарон 1,500 сомонӣ"
+                    }
+                }
+            ],            
+            "interviews": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Interview with Astronomer from India – Rajesh Kumar",
+                        "ru": "Интервью с астрономом из Индии – Раджеш Кумар",
+                        "tj": "Мусоҳиба бо астроном аз Ҳиндустон – Раджеш Кумар"
+                    },
+                    "quetion1": {
+                        "en": "— Rajesh, tell us about your work as an astronomer.",
+                        "ru": "— Раджеш, расскажите о вашей работе астрономом.",
+                        "tj": "— Раджеш, дар бораи кори худ ҳамчун астроном гӯед."
+                    },
+                    "answer1": {
+                        "en": "— I work as an astronomer at the Indian Institute of Astrophysics in Bangalore. My focus is on studying the night sky, particularly the movement of celestial bodies. I also conduct research on the influence of cosmic radiation on Earth. My work involves a combination of observation, data analysis, and theoretical modeling to better understand the universe.",
+                        "ru": "— Я работаю астрономом в Индийском институте астрофизики в Бангалоре. Моя специализация — изучение ночного неба, в частности, движение небесных тел. Я также провожу исследования воздействия космического излучения на Землю. Моя работа включает наблюдения, анализ данных и теоретическое моделирование для лучшего понимания Вселенной.",
+                        "tj": "— Ман астроном дар Институти астрофизикаи Ҳинд дар Бангалор кор мекунам. Роҳе, ки ман ба он аҳамият медиҳам, омӯзиши осмон дар шаб аст, махсусан ҳаракати астрономии объектҳо. Ман инчунин таҳқиқоти таъсири радиатсияи кайҳон ба Заминро анҷом медиҳам. Кори ман таркиби мушоҳида, таҳлили маълумот ва моделсозии назариявиро барои фаҳмидани беҳтари конаи космосро дар бар мегирад."
+                    },
+                    "quetion2": {
+                        "en": "— How do you use modern technology in your research?",
+                        "ru": "— Как вы используете современные технологии в своей работе?",
+                        "tj": "— Шумо чӣ гуна технологияҳои муосирро дар таҳқиқотатон истифода мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We use advanced telescopes and satellites to observe distant galaxies and star systems. In addition, we rely on data modeling software to simulate cosmic phenomena and predict future astronomical events. Technology has become indispensable for analyzing vast amounts of data from space.",
+                        "ru": "— Мы используем современные телескопы и спутники для наблюдения за далекими галактиками и звездными системами. Кроме того, мы используем программы для моделирования данных, чтобы симулировать космические явления и предсказать будущие астрономические события. Технологии стали незаменимы для анализа огромных объемов данных из космоса.",
+                        "tj": "— Мо аз телескопҳо ва спутникҳои муосир барои мушоҳидаи галактикаҳои дур ва системаи ситорагон истифода мебарем. Ғайр аз ин, мо аз нармафзорҳои моделсозии маълумот барои имитация кардани падидаҳои космос ва пешгӯии рӯйдодҳои ояндаи астрономӣ истифода мебарем. Технологияҳо барои таҳлил кардани миқдори зиёди маълумот аз кайҳон наметавонанд дар таҳқиқотҳои мо зарур нест."
+                    },
+                    "avtor": {
+                        "en": "Rajesh Kumar",
+                        "ru": "Раджеш Кумар",
+                        "tj": "Раджеш Кумар"
+                    },
+                    "location": {
+                        "en": "Bangalore, India",
+                        "ru": "Бангалор, Индия",
+                        "tj": "Бангалор, Ҳиндустон"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Interview with Astronomer from Egypt – Amira Said",
+                        "ru": "Интервью с астрономом из Египта – Амира Саид",
+                        "tj": "Мусоҳиба бо астроном аз Миср – Амира Саид"
+                    },
+                    "quetion1": {
+                        "en": "— Amira, tell us why studying astronomy is important for your country.",
+                        "ru": "— Амира, расскажите, почему изучение астрономии важно для вашей страны.",
+                        "tj": "— Амира, барои Миср омӯзиши астрономия чӣ аҳамият дорад?"
+                    },
+                    "answer1": {
+                        "en": "— Astronomy has been a key part of Egyptian culture for centuries, especially given our history with the stars and the ancient Egyptians' advanced understanding of the cosmos. Today, studying astronomy helps us explore space, understand the universe, and even find solutions to global challenges such as climate change and the use of satellite technology.",
+                        "ru": "— Астрономия была важной частью египетской культуры на протяжении веков, особенно учитывая нашу историю с звездами и глубокие знания древних египтян о космосе. Сегодня изучение астрономии помогает нам исследовать космос, понять вселенную и даже искать решения глобальных проблем, таких как изменение климата и использование спутниковых технологий.",
+                        "tj": "— Астрономия барои Миср як ҷузъи муҳимтари фарҳанг дар тӯли асрҳо буд, махсусан бо таваҷҷӯҳ ба таърихи мо бо ситорагон ва фаҳмиши пешрафтаи астрономии мисрӣ. Имрӯз, омӯзиши астрономия ба мо кӯмак мекунад, ки кайҳонро омӯзем, конаи космосро фаҳмем ва ҳатто ҳалли мушкилот ҷаҳониро, мисли тағйироти иқлим ва истифодаи технологияҳои спутникро пайдо кунем."
+                    },
+                    "quetion2": {
+                        "en": "— How do you use technology in your astronomical research?",
+                        "ru": "— Как вы используете технологии в вашей астрономической работе?",
+                        "tj": "— Шумо чӣ гуна технологияҳоро дар таҳқиқоти астрономии худ истифода мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We use a variety of tools, including space telescopes, satellite imaging systems, and computer simulations. These technologies allow us to study distant stars, planets, and galaxies with great precision. They also enable us to track asteroids and comets that could pose a threat to Earth.",
+                        "ru": "— Мы используем различные инструменты, включая космические телескопы, спутниковые системы для съемки и компьютерные симуляции. Эти технологии позволяют нам с большой точностью изучать далекие звезды, планеты и галактики. Они также помогают отслеживать астероиды и кометы, которые могут представлять угрозу для Земли.",
+                        "tj": "— Мо аз як қатор асбобҳо истифода мебарем, ки дар он телескопҳои космостӣ, системаҳои тасвиргирии спутникҳо ва симулятсияҳои компютерӣ дохил мешаванд. Ин технологияҳо ба мо имкон медиҳанд, ки ситорагони дур, сайёраҳо ва галактикаҳоро бо дақиқии баланд омӯзем. Онҳо инчунин имкон медиҳанд, ки астероидҳо ва кометҳоеро, ки метавонанд تهдиди Замин бошанд, пайгирӣ кунем."
+                    },
+                    "avtor": {
+                        "en": "Amira Said",
+                        "ru": "Амира Саид",
+                        "tj": "Амира Саид"
+                    },
+                    "location": {
+                        "en": "Cairo, Egypt",
+                        "ru": "Каир, Египет",
+                        "tj": "Қоҳира, Миср"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Interview with Astronomer from China – Li Min",
+                        "ru": "Интервью с астрономом из Китая – Ли Минь",
+                        "tj": "Мусоҳиба бо астроном аз Чин – Ли Мин"
+                    },
+                    "quetion1": {
+                        "en": "— Li Min, how do you inspire the next generation of astronomers?",
+                        "ru": "— Ли Минь, как вы вдохновляете следующее поколение астрономов?",
+                        "tj": "— Ли Минь, шумо чӣ гуна наслҳои ояндаи астрономҳоро илҳом мебахшед?"
+                    },
+                    "answer1": {
+                        "en": "— Astronomy is all about curiosity and exploration. I encourage my students to question everything and to always look to the stars for inspiration. By teaching them about the history of astronomy in ancient China and the great discoveries made by Chinese scientists, I hope to motivate them to continue exploring the universe and perhaps make their own discoveries one day.",
+                        "ru": "— Астрономия — это про любопытство и исследование. Я призываю своих студентов задавать вопросы по всем темам и всегда искать вдохновение в звездах. Обучая их истории астрономии в Древнем Китае и великими открытиями китайских ученых, я надеюсь вдохновить их продолжить исследовать вселенную и, возможно, однажды сделать собственные открытия.",
+                        "tj": "— Астрономия, ин ҳама дар бораи кафод ва омӯзиш аст. Ман шогирдонро ташвиқ мекунам, ки ҳама чизро пурсанд ва ҳамеша барои илҳом ситорагонро бубинанд. Бо омӯхтани таърихи астрономия дар Чини қадим ва кашфҳои бузург, ки олимони чинӣ анҷом додаанд, ман умедворам, ки онҳоро барои идомаи омӯзиши конаи космос ташвиқ кунам ва шояд як рӯз худ кашфҳои худро кунем."
+                    },
+                    "quetion2": {
+                        "en": "— How do you use modern technology in your research?",
+                        "ru": "— Как вы используете современные технологии в вашей астрономической работе?",
+                        "tj": "— Шумо чӣ гуна технологияҳои муосирро дар таҳқиқотатон истифода мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We rely on cutting-edge technology such as space telescopes, high-resolution imaging, and quantum computing to analyze data from space. These tools allow us to observe galaxies, black holes, and other cosmic phenomena in great detail, leading to new insights about the universe and its origins.",
+                        "ru": "— Мы используем передовые технологии, такие как космические телескопы, высококачественные изображения и квантовые вычисления для анализа данных из космоса. Эти инструменты позволяют нам наблюдать галактики, черные дыры и другие космические явления с высокой детализацией, что приводит к новым открытиям о Вселенной и ее происхождении.",
+                        "tj": "— Мо аз технологиҳои пешрафта, ба монанди телескопҳои космостӣ, тасвиргирии баландсифат ва ҳисобкунӣ бо квантӣ барои таҳлили маълумот аз кайҳон истифода мебарем. Ин асбобҳо ба мо имкон медиҳанд, ки галактикаҳо, чорчӯбаҳои сиёҳ ва дигар падидаҳои космосиро бо ҷузъияти баланд мушоҳида кунем, ки ба маълумоти нав дар бораи кона ва пайдоиши он оварда мерасонад."
+                    },
+                    "avtor": {
+                        "en": "Li Min",
+                        "ru": "Ли Минь",
+                        "tj": "Ли Мин"
+                    },
+                    "location": {
+                        "en": "Beijing, China",
+                        "ru": "Пекин, Китай",
+                        "tj": "Пекин, Чин"
+                    }
+                }
+            ],
+            "experience": {
+                "en": "In the field of astronomy, there are several stages: a junior astronomer (1-3 years of experience) gains basic observational and data analysis skills, a mid-level astronomer (3-5 years) confidently applies various research methods, a senior astronomer (5+ years) actively contributes to new discoveries and may supervise junior researchers, while a master astronomer (10+ years) leads major projects, publishes influential papers, and plays a key role in shaping the future of space exploration.",
+                "ru": "В области астрономии можно выделить несколько этапов: молодой астроном (1-3 года опыта) осваивает основные навыки наблюдения и анализа данных, астроном средней квалификации (3-5 лет) уверенно применяет различные методы исследования, опытный астроном (5+ лет) активно вносит вклад в новые открытия и может быть наставником для младших исследователей, а астроном-эксперт (10+ лет) руководит крупными проектами, публикует влиятельные работы и играет ключевую роль в формировании будущего освоения космоса.",
+                "tj": "Дар соҳаи астрономия чандин марҳила мавҷуд аст: астрономи нав (1-3 сол таҷриба) маҳорати асосии мушоҳида ва таҳлили маълумотро меомӯзад, астрономи миёна (3-5 сол) бо боварӣ усулҳои гуногуни тадқиқотро истифода мебарад, астрономи таҷрибадор (5+ сол) ба кашфиётҳои нав саҳм мегузорад ва метавонад ҳамчун мураббӣ барои муҳаққиқони ҷавон хизмат кунад, ва астрономи устод (10+ сол) ба роҳбарӣ кардани лоиҳаҳои бузург, нашр кардани мақолаҳои таъсиргузор ва нақши калидӣ дар ташаккули ояндаи тадқиқоти кайҳонӣ машғул аст."
+            },            
+            "history": {
+                "en": "The field of astronomy has existed for millennia. In Ancient Egypt and Mesopotamia, astronomers were often priests who studied the stars and the movements of celestial bodies to predict seasons and guide agriculture. In Ancient Greece, philosophers like Pythagoras and Aristotle laid the foundations for scientific understanding of the cosmos, and Eratosthenes measured the Earth's circumference. During the Middle Ages, astronomers were often monks and scholars who studied the heavens to understand the nature of the universe. With the development of the telescope during the Renaissance, astronomy became more observational and scientific discoveries, such as the heliocentric model proposed by Copernicus, revolutionized our understanding of the universe. In the 19th century, with the advent of modern telescopes and space exploration, astronomers expanded their studies to distant stars, galaxies, and other celestial phenomena. Today, astronomers continue to explore the mysteries of the cosmos, using advanced technologies to study space and expand our knowledge of the universe.",
+                "ru": "Астрономия существует с древнейших времен. В Древнем Египте и Месопотамии астрономами часто были жрецы, которые изучали звезды и движение небесных тел, чтобы предсказать сезоны и направлять сельское хозяйство. В Древней Греции философы, такие как Пифагор и Аристотель, заложили основы научного понимания космоса, а Эратосфен измерил окружность Земли. В Средние века астрономами часто становились монахи и ученые, изучавшие небеса, чтобы понять природу вселенной. С развитием телескопа в эпоху Ренессанса астрономия стала более наблюдательной, а такие научные открытия, как гелиоцентрическая модель Коперника, революционизировали наше понимание Вселенной. В 19 веке, с появлением современных телескопов и освоением космоса, астрономы начали изучать далекие звезды, галактики и другие небесные явления. Сегодня астрономы продолжают исследовать тайны космоса, используя передовые технологии для изучения космоса и расширения нашего знания о вселенной.",
+                "tj": "Астрономия аз замонҳои қадим вуҷуд дошт. Дар Мисри Древӣ ва Месопотамия астрономҳо аксар вақт овезон буданд, ки ситорагон ва ҳаракати аҷсоми осмонаро омӯхта, мавсимҳоро пешгӯӣ мекарданд ва кишоварзиро роҳнамоӣ менамуданд. Дар Юнони Древӣ, фалсафаҳои бузург, монанди Пифагор ва Аристотел, асосҳои фаҳмиши илмии космосро гузоштанд ва Эратосфен диаметри Заминро чен кард. Дар давраи Средневековие, астрономҳо аксар вақт расулон ва донишмандон буданд, ки осмонҳоро омӯхта, мехостанд фаҳманд, ки табиати олам чӣ гуна аст. Бо рушди телескоп дар давраи Ренессанс, астрономия ба назарсанҷии бештар табдил ёфт ва кашфиётҳои илмӣ, ба монанди модели хелиоцентрии Коперник, фаҳмиши мо аз оламро инқилобӣ намуд. Дар асри XIX, бо истифода аз телескопҳои муосир ва тадқиқоти кайҳонӣ, астрономҳо омӯзишҳоро ба ситораҳои дур, галактикаҳо ва дигар падидаҳои осмонӣ васеъ карданд. Имрӯз, астрономҳо барои омӯзиши осмон ва густариши донишҳои мо дар бораи конаи олам, аз технологияи пешрафта истифода мебаранд."
+            },            
             "diagram": [],
-            "active": [],
-            "needs": []
+            "active": {
+                "en": "At the same time, more than 60% of astronomers in Tajikistan have work experience, but only 20-30% of them update their knowledge and skills, particularly in the area of modern astronomical technologies and innovative research methods.",
+                "ru": "При этом более 60% астрономов в Таджикистане имеют опыт работы, но лишь 20-30% из них обновляют свои знания и навыки, особенно в области современных астрономических технологий и инновационных методов исследования.",
+                "tj": "Дар ҳамин ҳол, беш аз 60% астрономҳо дар Таджикистон таҷрибаи корӣ доранд, вале танҳо 20-30% аз онҳо дониш ва маҳорати худро нав мекунанд, махсусан дар соҳаи технологияҳои астрономии муосир ва усулҳои навоваронаи тадқиқот."
+            },
+            "needs": {
+                "en": "In Tajikistan, there is a shortage of astronomers, especially in rural areas, where about 30% of observatories face a lack of qualified staff. This is due to low salaries and limited opportunities for professional growth.",
+                "ru": "В Таджикистане наблюдается нехватка астрономов, особенно в сельских районах, где около 30% обсерваторий испытывают дефицит квалифицированных кадров. Это связано с низкими зарплатами и ограниченными возможностями для профессионального роста.",
+                "tj": "Дар Таджикистон, дар минтақаҳои деҳот камбуди астрономҳо мушоҳида мешавад, ки тақрибан 30% обсерваторияҳо бо камбуди кадрҳои квалификатсияшуда рӯ ба рӯ мешаванд. Ин бо арзиши пасти маош ва имкониятҳои маҳдуди рушд дар соҳаи касбӣ вобаста аст."
+            }
         },
         {
             "id": 3,
-            "title": "",
-            "description": "",
             "status": false,
-            "vacancy": [],
-            "images": [],
-            "learning": [],
-            "interviews": [],
-            "experience": [],
-            "history": [],
+            "title": {
+                "en":"Architect",
+                "ru":"Архитектор",
+                "tj":"Меъмор"
+            },
+            "description": {
+                    "en": "The profession of an architect is a path to designing and creating spaces that shape human life and society. Architects design buildings, urban spaces, and structures, considering functionality, aesthetics, and sustainability. They use advanced tools such as CAD software, 3D modeling, and various engineering systems to create detailed plans and blueprints. One of the main areas of an architect's work is urban planning, the design of cities and communities. Important tasks for architects also include ensuring buildings meet safety standards, optimizing the use of resources, and promoting environmental sustainability. To work in this field, a strong education in architecture, engineering, and design is required. The profession of an architect demands creativity, attention to detail, and problem-solving skills, as each project presents unique challenges. At the same time, this work is highly rewarding for those who seek to impact the physical world and improve the built environment.",
+                    "ru": "Профессия архитектора — это путь к проектированию и созданию пространств, которые формируют человеческую жизнь и общество. Архитекторы проектируют здания, городские пространства и сооружения, учитывая функциональность, эстетику и устойчивость. Они используют современные инструменты, такие как программы CAD, 3D-моделирование и различные инженерные системы для создания детализированных планов и чертежей. Одним из основных направлений работы архитектора является градостроительство, проектирование городов и сообществ. Важными задачами архитекторов являются также обеспечение соответствия зданий стандартам безопасности, оптимизация использования ресурсов и продвижение устойчивого развития. Для работы в этой сфере необходимо иметь образование в области архитектуры, инженерии и дизайна. Профессия архитектора требует креативности, внимательности к деталям и навыков решения проблем, так как каждый проект представляет собой уникальные вызовы. В то же время эта работа невероятно увлекательна для тех, кто стремится повлиять на физический мир и улучшить застроенную среду.",
+                    "tj": "Пешаи меъмор — ин роҳи тарҳрезӣ ва сохтани фазоҳоест, ки ҳаёти инсон ва ҷомеаро шакл медиҳад. Меъморон биноҳо, фазоҳои шаҳрӣ ва сохторҳоро тарҳрезӣ мекунанд, бо дар назар доштани функсионалӣ, эстетика ва устуворӣ. Онҳо аз воситаҳои муосир, монанди нармафзорҳои CAD, моделсозии 3D ва системаҳои муҳандисӣ барои эҷоди нақшаҳои муфассал ва расмҳо истифода мебаранд. Яке аз самтҳои асосии кор дар меъморӣ — ин шаҳрсозӣ аст, тарҳрезии шаҳрҳо ва ҷомеаҳо. Задаҳои муҳими меъморон инчунин мутобиқ кардани биноҳо ба стандартҳои амният, оптимизатсияи истифодаи манбаъҳо ва пешбурди рушди устувор мебошад. Барои кор дар ин соҳа таҳсилоти мукаммали илмӣ дар соҳаҳои меъморӣ, муҳандисӣ ва тарҳрезӣ зарур аст. Пешаи меъмор талаб мекунад, ки креативӣ, диққат ба ҷузъиёти кор ва маҳорати ҳалли мушкилот дошта бошад, зеро ҳар лоиҳа мушкилоти хоси худро дорад. Аммо дар айни ҳол, ин кор барои одамоне, ки мехоҳанд ба ҷаҳон физикӣ таъсир расонанд ва муҳити сохтмоншударо беҳтар кунанд, хеле ҷолиб аст."
+            },            
+            "vacancy": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Architect for Urban Planning",
+                        "ru": "Архитектор по градостроительству",
+                        "tj": "Меъмор барои шаҳрсозӣ"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, stable work in an urban planning office, opportunities for professional development.",
+                        "ru": "Полная ставка, стабильная работа в офисе градостроительства, возможность профессионального роста.",
+                        "tj": "Вақти пурра, кор дар дафтари шаҳрсозӣ, имконият барои рушди касбӣ."
+                    },
+                    "salary": {
+                        "en": "3,500-4,000 somoni per month",
+                        "ru": "3,500-4,000 сомони в месяц",
+                        "tj": "3,500-4,000 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Architectural Designer",
+                        "ru": "Архитектурный дизайнер",
+                        "tj": "Дизайнери меъморӣ"
+                    },
+                    "conditions": {
+                        "en": "Part-time position, work at a private architecture firm, opportunities for collaboration with international architects.",
+                        "ru": "Частичная ставка, работа в частной архитектурной фирме, возможность сотрудничества с международными архитекторами.",
+                        "tj": "Вақти нимрӯзӣ, кор дар ширкати меъморӣ хусусӣ, имконият барои ҳамкорӣ бо меъморони байналмилалӣ."
+                    },
+                    "salary": {
+                        "en": "3,000 somoni per month",
+                        "ru": "3,000 сомони в месяц",
+                        "tj": "3,000 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Khujand",
+                        "ru": "Худжанд",
+                        "tj": "Худжанд"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Sustainable Architecture Expert",
+                        "ru": "Эксперт по устойчивой архитектуре",
+                        "tj": "Маҳарриси меъмории устувор"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, work at an architecture firm in a rural area, housing provided.",
+                        "ru": "Полная ставка, работа в архитектурной фирме в сельской местности, предоставление жилья.",
+                        "tj": "Вақти пурра, кор дар ширкати меъморӣ дар минтақаи деҳот, фароҳам овардани ҷойи истиқомат."
+                    },
+                    "salary": {
+                        "en": "2,800 somoni per month",
+                        "ru": "2,800 сомони в месяц",
+                        "tj": "2,800 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Hisor",
+                        "ru": "Гиссар",
+                        "tj": "Хисор"
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": {
+                        "en": "Architectural Researcher",
+                        "ru": "Архитектурный исследователь",
+                        "tj": "Олим дар меъморӣ"
+                    },
+                    "conditions": {
+                        "en": "0.75 position, work at a research institute, opportunities for professional development, on-site support.",
+                        "ru": "Ставка 0.75, работа в научном институте, возможности профессионального роста, поддержка на месте.",
+                        "tj": "0.75 ставка, кор дар институти илмӣ, имконият барои рушди касбӣ, кӯмак дар ҷойи кор."
+                    },
+                    "salary": {
+                        "en": "2,800 somoni per month",
+                        "ru": "2,800 сомони в месяц",
+                        "tj": "2,800 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Kulyab",
+                        "ru": "Куляб",
+                        "tj": "Кулоб"
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": {
+                        "en": "Architectural Project Manager",
+                        "ru": "Менеджер архитектурных проектов",
+                        "tj": "Менеҷери лоиҳаҳои меъморӣ"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, work at a public architectural office, regular scientific workshops and conferences.",
+                        "ru": "Полная ставка, работа в государственной архитектурной организации, регулярные научные мастер-классы и конференции.",
+                        "tj": "Вақти пурра, кор дар ташкилоти меъмории давлатӣ, курсҳои мунтазами илмӣ ва конференсияҳо."
+                    },
+                    "salary": {
+                        "en": "2,500 somoni per month",
+                        "ru": "2,500 сомони в месяц",
+                        "tj": "2,500 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Penjikent",
+                        "ru": "Пенджикент",
+                        "tj": "Пенҷикент"
+                    }
+                }
+            ],
+            "images": [
+                {
+                    "id":1,
+                    "img":"./src/assets/images/architect3.jpg"
+                },
+                {
+                    "id":2,
+                    "img":"./src/assets/images/architect2.jpg"
+                },
+                {
+                    "id":3,
+                    "img":"./src/assets/images/architect1.jpg"
+                }
+            ],
+            "learning": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Architectural Design at Tajik State University (TSU)",
+                        "ru": "Архитектурное проектирование в Государственном университете Таджикистана (ДУТ)",
+                        "tj": "Тарҳрезии меъморӣ дар Донишгоҳи давлатии Тоҷикистон (ДДТ)"
+                    },
+                    "programm": {
+                        "en": "Architecture and Urban Planning",
+                        "ru": "Архитектура и градостроительство",
+                        "tj": "Меъморӣ ва шаҳрсозӣ"
+                    },
+                    "condition": {
+                        "en": "Full-time program, state accreditation, scholarship opportunities, program duration 4 years.",
+                        "ru": "Дневное отделение, государственная аккредитация, возможность получения стипендии, курс длится 4 года.",
+                        "tj": "Вақти пурра, аккредитацияи давлатӣ, имконият барои гирифтани стипендия, давомнокии курс 4 сол."
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    },
+                    "payment": {
+                        "en": "Around 5,000 somoni per year",
+                        "ru": "Около 5,000 сомони в год",
+                        "tj": "Такрибан 5,000 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Architectural Innovations at Dushanbe College of Architecture",
+                        "ru": "Архитектурные инновации в Колледже архитектуры Душанбе",
+                        "tj": "Иноноватсияи меъморӣ дар Коллеҷи меъморӣ Душанбе"
+                    },
+                    "programm": {
+                        "en": "Building Design and Sustainable Architecture",
+                        "ru": "Проектирование зданий и устойчивое архитектурное строительство",
+                        "tj": "Тарҳрезии биноҳо ва меъмории устувор"
+                    },
+                    "condition": {
+                        "en": "Full-time and evening programs, internships at architectural firms, professional development courses.",
+                        "ru": "Дневное и вечернее отделение, практика в архитектурных фирмах, курсы повышения квалификации.",
+                        "tj": "Вақти пурра ва нимрӯзӣ, амалиёт дар ширкати меъморӣ, курсҳои такмили ихтисос."
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    },
+                    "payment": {
+                        "en": "Around 3,500 somoni per year",
+                        "ru": "Около 3,500 сомони в год",
+                        "tj": "Такрибан 3,500 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Architectural Heritage at Khujand State University",
+                        "ru": "Архитектурное наследие в Худжандском государственном университете",
+                        "tj": "Мирас ва мероси меъморӣ дар Донишгоҳи давлатии Худжанд"
+                    },
+                    "programm": {
+                        "en": "Architecture and Heritage Conservation",
+                        "ru": "Архитектура и охрана культурного наследия",
+                        "tj": "Меъморӣ ва муҳофизат аз мероси фарҳангӣ"
+                    },
+                    "condition": {
+                        "en": "Full-time program, state diploma, access to architectural research materials.",
+                        "ru": "Дневное отделение, диплом государственного образца, доступ к материалам архитектурных исследований.",
+                        "tj": "Вақти пурра, дипломи давлатӣ, дастрасӣ ба маводи таҳқиқоти меъморӣ."
+                    },
+                    "location": {
+                        "en": "Khujand",
+                        "ru": "Худжанд",
+                        "tj": "Худжанд"
+                    },
+                    "payment": {
+                        "en": "Around 4,000 somoni per year",
+                        "ru": "Около 4,000 сомони в год",
+                        "tj": "Такрибан 4,000 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": {
+                        "en": "Architectural Engineering at Penjikent Architecture College",
+                        "ru": "Архитектурная инженерия в Колледже архитектуры Пенджикента",
+                        "tj": "Меҳандисии меъморӣ дар Коллеҷи меъмории Пенҷикент"
+                    },
+                    "programm": {
+                        "en": "Building Engineering and Sustainable Design",
+                        "ru": "Строительная инженерия и устойчивое проектирование",
+                        "tj": "Меҳандисии сохтмон ва тарҳрезии устувор"
+                    },
+                    "condition": {
+                        "en": "Full-time program, internships at architecture firms, employment opportunities in the construction sector after graduation.",
+                        "ru": "Дневное отделение, практика в архитектурных фирмах, возможность трудоустройства в строительном секторе после окончания.",
+                        "tj": "Вақти пурра, амалиёт дар ширкати меъморӣ, имконият барои кор ёфтан дар бахши сохтмон пас аз хатм."
+                    },
+                    "location": {
+                        "en": "Penjikent",
+                        "ru": "Пенджикент",
+                        "tj": "Пенҷикент"
+                    },
+                    "payment": {
+                        "en": "Free for local residents, 1,500 somoni for non-residents",
+                        "ru": "Бесплатное обучение для местных жителей, 1,500 сомони для иногородних",
+                        "tj": "Барои сокинони маҳаллӣ ройгон, барои дигарон 1,500 сомонӣ"
+                    }
+                }
+            ],
+            "interviews": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Interview with Architect from India – Rajesh Kumar",
+                        "ru": "Интервью с архитектором из Индии – Раджеш Кумар",
+                        "tj": "Мусоҳиба бо меъмор аз Ҳиндустон – Раджеш Кумар"
+                    },
+                    "quetion1": {
+                        "en": "— Rajesh, tell us about your work as an architect.",
+                        "ru": "— Раджеш, расскажите о вашей работе архитектором.",
+                        "tj": "— Раджеш, дар бораи кори худ ҳамчун меъмор гӯед."
+                    },
+                    "answer1": {
+                        "en": "— I work as an architect at a design firm in Bangalore. My focus is on creating sustainable and innovative building designs that enhance urban living. I also specialize in restoring historical buildings and preserving cultural heritage. My work involves a lot of collaboration with engineers, urban planners, and clients to turn ideas into reality.",
+                        "ru": "— Я работаю архитектором в проектной компании в Бангалоре. Моя специализация — создание устойчивых и инновационных проектов зданий, которые улучшают городской быт. Я также занимаюсь восстановлением исторических зданий и сохранением культурного наследия. Моя работа включает много взаимодействия с инженерами, градостроителями и клиентами, чтобы воплотить идеи в жизнь.",
+                        "tj": "— Ман як меъмор дар як ширкати тарҳрезӣ дар Бангалор кор мекунам. Роҳе, ки ман ба он аҳамият медиҳам, тарҳрезии устувор ва инноватсионӣ барои сохтмонҳое мебошад, ки зиндагии шаҳрро беҳтар месозад. Ман инчунин дар барқарор кардани биноҳои таърихӣ ва ҳифзи мероси фарҳангӣ ихтисос дорам. Кори ман дар бар мегирад, ки бо муҳандисон, шаҳрсозон ва мизоҷон барои табдил кардани фикрҳо ба воқеият ҳамкорӣ кунам."
+                    },
+                    "quetion2": {
+                        "en": "— How do you use modern technology in your architectural designs?",
+                        "ru": "— Как вы используете современные технологии в ваших архитектурных проектах?",
+                        "tj": "— Шумо чӣ гуна технологияҳои муосирро дар тарҳрезиҳои меъморӣ истифода мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We use advanced software like AutoCAD, Revit, and BIM (Building Information Modeling) to create detailed designs and simulations. These technologies help us optimize building structures, energy efficiency, and overall functionality. We also use virtual reality (VR) and 3D printing to present our designs to clients and stakeholders in a more immersive way.",
+                        "ru": "— Мы используем современные программы, такие как AutoCAD, Revit и BIM (Моделирование информации о здании), чтобы создавать детализированные проекты и симуляции. Эти технологии помогают нам оптимизировать конструкцию зданий, энергоэффективность и общую функциональность. Мы также используем виртуальную реальность (VR) и 3D-печать, чтобы представить наши проекты клиентам и заинтересованным сторонам более наглядным способом.",
+                        "tj": "— Мо аз нармафзорҳои муосир, ба монанди AutoCAD, Revit ва BIM (Моделсозии Маълумоти Сохтмон) барои сохтани тарҳҳо ва симулятсияҳои муфассал истифода мебарем. Ин технологияҳо ба мо кӯмак мекунанд, ки сохтори биноҳоро, самаранокии энергетикӣ ва функсионалияти умумиро оптимизатсия кунем. Мо инчунин аз воқеияти маҷозӣ (VR) ва чопи 3D барои пешниҳоди тарҳҳоямон ба мизоҷон ва аҳамиятдорҳо истифода мебарем."
+                    },
+                    "avtor": {
+                        "en": "Rajesh Kumar",
+                        "ru": "Раджеш Кумар",
+                        "tj": "Раджеш Кумар"
+                    },
+                    "location": {
+                        "en": "Bangalore, India",
+                        "ru": "Бангалор, Индия",
+                        "tj": "Бангалор, Ҳиндустон"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Interview with Architect from Egypt – Amira Said",
+                        "ru": "Интервью с архитектором из Египта – Амира Саид",
+                        "tj": "Мусоҳиба бо меъмор аз Миср – Амира Саид"
+                    },
+                    "quetion1": {
+                        "en": "— Amira, tell us why architecture is important for your country.",
+                        "ru": "— Амира, расскажите, почему архитектура важна для вашей страны.",
+                        "tj": "— Амира, барои Миср меъморӣ чӣ аҳамият дорад?"
+                    },
+                    "answer1": {
+                        "en": "— Architecture has always been a significant part of Egyptian culture, from the ancient pyramids to modern buildings. Today, architecture plays a vital role in urban development, helping create sustainable cities and improve the quality of life. In Egypt, we're also focusing on restoring historical landmarks while integrating them into new, modern designs.",
+                        "ru": "— Архитектура всегда была важной частью египетской культуры — от древних пирамид до современных зданий. Сегодня архитектура играет ключевую роль в развитии городов, помогая создавать устойчивые города и улучшать качество жизни. В Египте мы также сосредоточены на восстановлении исторических памятников и их интеграции в новые, современные проекты.",
+                        "tj": "— Меъморӣ ҳамеша як ҷузъи муҳимтари фарҳанг дар Миср буд — аз пирамидҳои қадимӣ то биноҳои муосир. Имрӯз, меъморӣ нақши муҳимро дар рушди шаҳрҳо мебозад, кӯмак мекунад, ки шаҳрҳои устувор созем ва сифатро дар зиндагии мардум беҳтар кунем. Дар Миср, мо инчунин ба барқарор кардани ёдгориҳои таърихӣ диққат медиҳем ва онҳоро дар тарҳҳои муосири нав идома медиҳем."
+                    },
+                    "quetion2": {
+                        "en": "— How do you incorporate modern technology into your architectural work?",
+                        "ru": "— Как вы внедряете современные технологии в вашу архитектурную работу?",
+                        "tj": "— Шумо чӣ гуна технологиҳои муосирро дар кори меъмории худ ба кор мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We use advanced building techniques and sustainable materials that reduce environmental impact. Technologies like 3D modeling, BIM, and smart city planning allow us to design more energy-efficient buildings. Additionally, we use virtual reality (VR) to visualize designs and ensure they meet the needs of the community.",
+                        "ru": "— Мы используем современные строительные технологии и устойчивые материалы, которые уменьшают воздействие на окружающую среду. Такие технологии, как 3D-моделирование, BIM и умное планирование городов, позволяют нам проектировать более энергоэффективные здания. Кроме того, мы используем виртуальную реальность (VR) для визуализации проектов и обеспечения их соответствия потребностям общества.",
+                        "tj": "— Мо аз усулҳои сохтмони муосир ва маводҳои устувор истифода мебарем, ки таъсири манфӣ ба муҳити зистро кам мекунанд. Технологияҳо, ба монанди моделсозии 3D, BIM ва нақшакашии шаҳрҳои хирадманд ба мо кӯмак мекунанд, ки биноҳои самараноктарро тарҳрезӣ кунем. Ғайр аз ин, мо аз воқеияти маҷозӣ (VR) барои тасвир кардани тарҳҳо ва таъмин кардани мувофиқати онҳо бо талаботҳои ҷомеа истифода мебарем."
+                    },
+                    "avtor": {
+                        "en": "Amira Said",
+                        "ru": "Амира Саид",
+                        "tj": "Амира Саид"
+                    },
+                    "location": {
+                        "en": "Cairo, Egypt",
+                        "ru": "Каир, Египет",
+                        "tj": "Қоҳира, Миср"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Interview with Architect from China – Li Min",
+                        "ru": "Интервью с архитектором из Китая – Ли Минь",
+                        "tj": "Мусоҳиба бо меъмор аз Чин – Ли Мин"
+                    },
+                    "quetion1": {
+                        "en": "— Li Min, how do you inspire the next generation of architects?",
+                        "ru": "— Ли Минь, как вы вдохновляете следующее поколение архитекторов?",
+                        "tj": "— Ли Минь, шумо чӣ гуна наслҳои ояндаи меъморҳоро илҳом мебахшед?"
+                    },
+                    "answer1": {
+                        "en": "— Architecture is about creativity and solving real-world problems. I encourage my students to think outside the box and challenge conventional ideas. By teaching them about the rich architectural history of China, I hope to inspire them to push the boundaries of modern design and create buildings that are both functional and beautiful.",
+                        "ru": "— Архитектура — это творчество и решение реальных проблем. Я призываю своих студентов мыслить нестандартно и оспаривать традиционные идеи. Обучая их богатой архитектурной историей Китая, я надеюсь вдохновить их на расширение границ современного дизайна и создание зданий, которые будут одновременно функциональными и красивыми.",
+                        "tj": "— Меъморӣ дар бораи эҷодкорӣ ва ҳал кардани мушкилоти воқеӣ аст. Ман шогирдонро ташвиқ мекунам, ки фикр кунанд берун аз қуттӣ ва идеҳои маъмулро муҳокима кунанд. Бо омӯхтани таърихи бойи меъмории Чин, ман умедворам, ки онҳоро барои васеъ кардани марзҳои тарҳрезии муосир илҳом мебахшам ва биноҳое созанд, ки ҳам функционалӣ ва ҳам зебо бошанд."
+                    },
+                    "quetion2": {
+                        "en": "— How do you use modern technology in your architectural designs?",
+                        "ru": "— Как вы используете современные технологии в ваших архитектурных проектах?",
+                        "tj": "— Шумо чӣ гуна технологияҳои муосирро дар тарҳрезиҳои меъморӣ истифода мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We use state-of-the-art design tools like AutoCAD, 3D modeling, and smart building systems to create cutting-edge designs. These technologies help us reduce waste, improve energy efficiency, and ensure that our buildings are environmentally friendly. We also use augmented reality (AR) to help clients visualize and experience the design before construction begins.",
+                        "ru": "— Мы используем современные инструменты проектирования, такие как AutoCAD, 3D-моделирование и системы умных зданий, чтобы создавать передовые проекты. Эти технологии помогают нам сокращать отходы, улучшать энергоэффективность и гарантировать, что наши здания являются экологически чистыми. Мы также используем дополненную реальность (AR), чтобы помочь клиентам визуализировать и испытать проект до начала строительства.",
+                        "tj": "— Мо аз асбобҳои тарҳрезии пешрафта, ба монанди AutoCAD, моделсозии 3D ва системаҳои бинои хирадманд истифода мебарем, ки тарҳҳои муосирро эҷод кунем. Ин технологияҳо кӯмак мекунанд, ки мо партовҳоро кам кунем, самаранокии энергетикӣ беҳтар намоем ва боварӣ ҳосил кунем, ки биноҳои мо барои муҳити зист дӯстона мебошанд. Мо инчунин аз воқеияти афзуд (AR) истифода мебарем, то ба мизоҷон кӯмак кунем, ки тарҳро пеш аз оғози сохтмон бинанд ва таҷриба кунанд."
+                    },
+                    "avtor": {
+                        "en": "Li Min",
+                        "ru": "Ли Минь",
+                        "tj": "Ли Мин"
+                    },
+                    "location": {
+                        "en": "Beijing, China",
+                        "ru": "Пекин, Китай",
+                        "tj": "Пекин, Чин"
+                    }
+                }
+            ],
+            "experience": {
+                "en": "In the field of architecture, there are several stages: a junior architect (1-3 years of experience) gains basic design and technical skills, a mid-level architect (3-5 years) confidently applies advanced design principles and building codes, a senior architect (5+ years) actively contributes to major projects and may supervise junior architects, while a master architect (10+ years) leads large-scale projects, publishes influential papers, and plays a key role in shaping the future of urban development and architectural innovation.",
+                "ru": "В области архитектуры можно выделить несколько этапов: молодой архитектор (1-3 года опыта) осваивает основные навыки проектирования и технические знания, архитектор средней квалификации (3-5 лет) уверенно применяет продвинутые принципы проектирования и строительные нормы, опытный архитектор (5+ лет) активно участвует в крупных проектах и может быть наставником для младших архитекторов, а архитектор-эксперт (10+ лет) руководит масштабными проектами, публикует влиятельные работы и играет ключевую роль в формировании будущего городского развития и архитектурных инноваций.",
+                "tj": "Дар соҳаи меъморӣ чандин марҳила мавҷуд аст: меъмори нав (1-3 сол таҷриба) маҳорати асосии тарҳрезӣ ва донишҳои техникӣ меомӯзад, меъмори миёна (3-5 сол) бо боварӣ принсипҳои пешрафтаи тарҳрезӣ ва қавоид ва стандартҳои сохтмонро истифода мебарад, меъмори таҷрибадор (5+ сол) ба лоиҳаҳои бузург саҳм мегузорад ва метавонад ҳамчун мураббӣ барои меъморони ҷавон хизмат кунад, ва меъмори устод (10+ сол) ба роҳбарӣ кардани лоиҳаҳои муҳими шаҳрӣ, нашр кардани мақолаҳои таъсиргузор ва нақши калидӣ дар ташаккули ояндаи рушди шаҳр ва навоварӣ меъморӣ машғул аст."
+            },
+            "history": {
+                "en": "The field of architecture has evolved over millennia. In Ancient Egypt and Mesopotamia, architects were often priests or master builders who designed temples and other monumental structures to honor the gods and serve as cultural symbols. In Ancient Greece, architects like Ictinos and Callicrates designed the Parthenon, laying the foundations for Western architectural thought. During the Roman Empire, engineering innovations such as the development of arches and aqueducts revolutionized architecture. In the Middle Ages, architects were often monks and builders who designed cathedrals and castles, contributing to the Gothic style. With the Renaissance, architecture became more focused on humanism and the study of classical forms, with architects like Brunelleschi and Michelangelo pushing the boundaries of design. In the 19th century, industrialization and new materials led to the rise of modern architecture, and architects began to explore new ways of combining form and function. Today, architects continue to shape the built environment, using advanced technologies to design sustainable, innovative structures that reflect the evolving needs of society.",
+                "ru": "Архитектура развивается уже тысячелетия. В Древнем Египте и Месопотамии архитекторами часто были жрецы или мастера-строители, которые проектировали храмы и другие монументальные сооружения, чтобы почтить богов и служить культурными символами. В Древней Греции архитекторы, такие как Иктинос и Каликрат, спроектировали Парфенон, заложив основы западного архитектурного мышления. В Римской империи инженерные инновации, такие как развитие арок и акведуков, произвели революцию в архитектуре. В Средние века архитекторами часто были монахи и строители, которые проектировали соборы и замки, способствуя развитию готического стиля. С Ренессансом архитектура стала более ориентированной на гуманизм и изучение классических форм, при этом архитекторы, такие как Брунеллески и Микеланджело, расширяли границы дизайна. В 19 веке индустриализация и новые материалы привели к росту современного архитектурного стиля, и архитекторы начали искать новые способы сочетания формы и функции. Сегодня архитекторы продолжают формировать построенную среду, используя передовые технологии для проектирования устойчивых и инновационных сооружений, отражающих развивающиеся потребности общества.",
+                "tj": "Архитектура аз замонҳои қадим рушд кардааст. Дар Мисри Древӣ ва Месопотамия, меъморон аксар вақт овезон ё сохтмончиёни маҳир буданд, ки маъбадҳо ва дигар биноҳои монументалиро тарҳрезӣ мекарданд, то худоёнро эҳтиром кунанд ва ҳамчун рамзи фарҳангӣ хизмат намоянд. Дар Юнони Древӣ, меъморон, монанди Иктинос ва Каликрат, Парфенонро тарҳрезӣ карданд, ки асосҳои андешаи меъмории ғарбиро гузошт. Дар Империяи Рум, инноватсияҳои муҳандисӣ, ба монанди рушди арк ва акведукҳо, астрономияро инқилобӣ намуд. Дар давраи Средневековие, меъморон аксар вақт расулон ва сохтмончиён буданд, ки соборҳо ва қасрҳоро тарҳрезӣ мекарданд, ки ба шакли готикӣ мусоидат мекард. Бо Ренессанс, меъморӣ ба гуманизм ва омӯхтани шаклҳои классикӣ бештар равона шуд, ва меъморон, монанди Брунеллески ва Микеланджело, марзҳои тарҳрезиро васеъ карданд. Дар асри XIX, саноатикунонӣ ва маводҳои нав ба болоравии меъмории муосир оварда расонид ва меъморон шурӯъ карданд, ки роҳҳои наве барои муттаҳид кардани шакл ва вазифа кашф намоянд. Имрӯз, меъморон дар ташкили муҳити сохташударо ба кор мегиранд, бо истифода аз технологиҳои пешрафта барои тарҳрезии биноҳои устувор ва инноватсионӣ, ки эҳтиёҷоти рушдёбандаи ҷомеаро инъикос мекунанд."
+            },
             "diagram": [],
-            "active": [],
-            "needs": []
+            "active": {
+                "en": "At the same time, more than 60% of architects in Tajikistan have work experience, but only 20-30% of them update their knowledge and skills, particularly in the area of modern architectural technologies and innovative design methods.",
+                "ru": "При этом более 60% архитекторов в Таджикистане имеют опыт работы, но лишь 20-30% из них обновляют свои знания и навыки, особенно в области современных архитектурных технологий и инновационных методов проектирования.",
+                "tj": "Дар ҳамин ҳол, беш аз 60% меъморон дар Таджикистон таҷрибаи корӣ доранд, вале танҳо 20-30% аз онҳо дониш ва маҳорати худро нав мекунанд, махсусан дар соҳаи технологияҳои меъмории муосир ва усулҳои навоваронаи тарҳрезӣ."
+            },
+            "needs": {
+                "en": "In Tajikistan, there is a shortage of architects, especially in rural areas, where about 30% of construction projects face a lack of qualified staff. This is due to low salaries and limited opportunities for professional growth.",
+                "ru": "В Таджикистане наблюдается нехватка архитекторов, особенно в сельских районах, где около 30% строительных проектов испытывают дефицит квалифицированных кадров. Это связано с низкими зарплатами и ограниченными возможностями для профессионального роста.",
+                "tj": "Дар Таджикистон, дар минтақаҳои деҳот камбуди меъморон мушоҳида мешавад, ки тақрибан 30% лоиҳаҳои сохтмонӣ бо камбуди кадрҳои квалификатсияшуда рӯ ба рӯ мешаванд. Ин бо арзиши пасти маош ва имкониятҳои маҳдуди рушд дар соҳаи касбӣ вобаста аст."
+            } 
         },
         {
             "id": 4,
-            "title": "",
-            "description": "",
             "status": false,
-            "vacancy": [],
-            "images": [],
-            "learning": [],
-            "interviews": [],
-            "experience": [],
-            "history": [],
+            "title": {
+                "en":"Confectioner",
+                "ru":"Кондитер", 
+                "tj": "Ширинисози"
+            },
+            "description": {
+                "en": "The profession of a pastry chef is a creative journey to designing and preparing sweet treats that bring joy and satisfaction. Pastry chefs specialize in baking cakes, pastries, and other desserts, considering flavor, texture, and presentation. They use advanced tools such as ovens, mixers, and specialized kitchen equipment to create their delicacies. One of the main areas of a pastry chef's work is cake decoration and the design of custom desserts for events such as weddings, birthdays, and other celebrations. Important tasks for pastry chefs also include maintaining high standards of hygiene, ensuring the quality of ingredients, and managing time effectively to meet deadlines. To work in this field, a strong education in culinary arts and pastry techniques is required. The profession of a pastry chef demands creativity, precision, and an eye for detail, as each dessert requires careful planning and execution. At the same time, this work is highly rewarding for those who seek to create delicious experiences and bring sweetness into people's lives.",
+                "ru": "Профессия кондитера — это творческий путь к созданию сладких угощений, которые приносят радость и удовлетворение. Кондитеры специализируются на выпечке тортов, пирожных и других десертов, уделяя внимание вкусу, текстуре и презентации. Они используют современные инструменты, такие как печи, миксеры и специализированное кухонное оборудование для создания своих кулинарных шедевров. Одним из основных направлений работы кондитера является оформление тортов и разработка индивидуальных десертов для мероприятий, таких как свадьбы, дни рождения и другие торжества. Важными задачами кондитеров также является поддержание высокого уровня гигиены, контроль качества ингредиентов и эффективное управление временем для выполнения заказов в срок. Для работы в этой сфере необходимо получить образование в области кулинарного искусства и кондитерских технологий. Профессия кондитера требует креативности, точности и внимательности к деталям, так как каждый десерт требует тщательного планирования и выполнения. В то же время эта работа невероятно увлекательна для тех, кто хочет создавать вкусные впечатления и приносить сладость в жизни людей.",
+                "tj": "Пешаи ширинисози — ин як роҳест эҷодкорона барои тарҳрезӣ ва омодасозии гӯшти ширин, ки шодию қаноатмандиро ба одаму зиндагӣ меорад. Ширинисозон дар омодасозии тортҳо, пирожнҳо ва дигар шириниҳо тахассус доранд, ба таъмини мазза, матн ва намоиш диққат медиҳанд. Онҳо аз воситаҳои муосир, монанди танӯрҳо, миксерҳо ва таҷҳизоти махсуси ошхона барои эҷоди таҳқиқотҳои худ истифода мебаранд. Яке аз самтҳои асосии кор дар ширинисозӣ — ин ороиши торти хос ва тарҳрезии шириниҳои фармоишӣ барои чорабиниҳо, монанди ақди никоҳ, рӯзи таваллуд ва дигар ҷашнҳо мебошад. Задаҳои муҳими ширинисозон ҳамчунин нигоҳ доштани стандартҳои баландтари гигиена, таъмини сифати маводи хӯрокӣ ва идоракунии дурустии вақт барои иҷрои фармоишҳо дар мӯҳлат мебошанд. Барои кор дар ин соҳа, таҳсилот дар санъати кулинария ва техникҳои ширинисозӣ зарур аст. Пешаи ширинисоз талаб мекунад, ки креативӣ, дақиқӣ ва диққат ба ҷузъиёти кор дошта бошад, зеро ҳар як ширинии хос ба нақшакашӣ ва иҷрои аниқи талаб мекунад. Аммо дар айни ҳол, ин кор барои онҳое, ки мехоҳанд таҷрибаҳои лазиз эҷод кунанд ва шириниро дар ҳаёти одамон оранд, хеле ҷолиб аст."
+            },
+            "vacancy": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Pastry Chef for Bakery",
+                        "ru": "Кондитер для пекарни",
+                        "tj": "Ширинисози барои нонвойхона"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, stable work in a bakery, opportunities for professional growth and skill development.",
+                        "ru": "Полная ставка, стабильная работа в пекарне, возможность профессионального роста и развития навыков.",
+                        "tj": "Вақти пурра, кор дар нонвойхона, имконият барои рушди касбӣ ва такмили малакаҳо."
+                    },
+                    "salary": {
+                        "en": "2,500-3,000 somoni per month",
+                        "ru": "2,500-3,000 сомони в месяц",
+                        "tj": "2,500-3,000 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Pastry Designer",
+                        "ru": "Дизайнер десертов",
+                        "tj": "Дизайнери шириниҳо"
+                    },
+                    "conditions": {
+                        "en": "Part-time position, work in a private pastry shop, opportunities to collaborate on custom dessert designs.",
+                        "ru": "Частичная ставка, работа в частной кондитерской, возможность сотрудничества по индивидуальным заказам на десерты.",
+                        "tj": "Вақти нимрӯзӣ, кор дар пекарни хусусӣ, имконият барои ҳамкорӣ дар тарҳрезии шириниҳои фармоишӣ."
+                    },
+                    "salary": {
+                        "en": "2,000 somoni per month",
+                        "ru": "2,000 сомони в месяц",
+                        "tj": "2,000 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Khujand",
+                        "ru": "Худжанд",
+                        "tj": "Худжанд"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Sustainable Pastry Chef",
+                        "ru": "Кондитер по устойчивым технологиям",
+                        "tj": "Ширинисози устувор"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, work in an organic bakery, housing provided.",
+                        "ru": "Полная ставка, работа в органической пекарне, предоставление жилья.",
+                        "tj": "Вақти пурра, кор дар нонвойхонаи органикӣ, фароҳам овардани ҷойи истиқомат."
+                    },
+                    "salary": {
+                        "en": "2,300 somoni per month",
+                        "ru": "2,300 сомони в месяц",
+                        "tj": "2,300 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Hisor",
+                        "ru": "Гиссар",
+                        "tj": "Хисор"
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": {
+                        "en": "Pastry Researcher",
+                        "ru": "Исследователь в области кондитерского искусства",
+                        "tj": "Олим дар соҳаи кондитерӣ"
+                    },
+                    "conditions": {
+                        "en": "0.75 position, work at a culinary research institute, opportunities for professional development.",
+                        "ru": "Ставка 0.75, работа в научном кулинарном институте, возможности профессионального роста.",
+                        "tj": "0.75 ставка, кор дар институти илмии кулинария, имконият барои рушди касбӣ."
+                    },
+                    "salary": {
+                        "en": "2,200 somoni per month",
+                        "ru": "2,200 сомони в месяц",
+                        "tj": "2,200 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Kulyab",
+                        "ru": "Куляб",
+                        "tj": "Кулоб"
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": {
+                        "en": "Pastry Project Manager",
+                        "ru": "Менеджер проектов в кондитерской сфере",
+                        "tj": "Менеҷери лоиҳаҳои кондитерӣ"
+                    },
+                    "conditions": {
+                        "en": "Full-time position, work in a public pastry organization, opportunities for workshops and training.",
+                        "ru": "Полная ставка, работа в государственной кондитерской организации, возможности для мастер-классов и тренингов.",
+                        "tj": "Вақти пурра, кор дар ташкилоти кондитерии давлатӣ, имконият барои курсҳо ва тренингҳо."
+                    },
+                    "salary": {
+                        "en": "2,000 somoni per month",
+                        "ru": "2,000 сомони в месяц",
+                        "tj": "2,000 сомонӣ дар моҳ"
+                    },
+                    "location": {
+                        "en": "Penjikent",
+                        "ru": "Пенджикент",
+                        "tj": "Пенҷикент"
+                    }
+                }
+            ],
+            "images": [
+                {
+                    "id":1,
+                    "img":"./src/assets/images/Confectioner1.jpg"
+                },
+                {
+                    "id":2,                    
+                    "img":"./src/assets/images/Confectioner2.jpg"
+                },
+                {
+                    "id":3,
+                    "img":"./src/assets/images/Confectioner3.jpg"
+                }
+            ],
+            "learning": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Pastry Arts at Tajik State University (TSU)",
+                        "ru": "Кондитерское искусство в Государственном университете Таджикистана (ДУТ)",
+                        "tj": "Ҳунарҳои ширинисозӣ дар Донишгоҳи давлатии Тоҷикистон (ДДТ)"
+                    },
+                    "programm": {
+                        "en": "Pastry and Confectionery Arts",
+                        "ru": "Кондитерское и кондитерское искусство",
+                        "tj": "Ширинисозӣ ва санъати кондитерӣ"
+                    },
+                    "condition": {
+                        "en": "Full-time program, state accreditation, scholarship opportunities, program duration 4 years.",
+                        "ru": "Дневное отделение, государственная аккредитация, возможность получения стипендии, курс длится 4 года.",
+                        "tj": "Вақти пурра, аккредитацияи давлатӣ, имконият барои гирифтани стипендия, давомнокии курс 4 сол."
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    },
+                    "payment": {
+                        "en": "Around 5,000 somoni per year",
+                        "ru": "Около 5,000 сомони в год",
+                        "tj": "Такрибан 5,000 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Pastry Innovation at Dushanbe Culinary College",
+                        "ru": "Иновативные подходы в кондитерском деле в Кулинарном колледже Душанбе",
+                        "tj": "Иноватсияҳои ширинисозӣ дар Коллеҷи кулинарии Душанбе"
+                    },
+                    "programm": {
+                        "en": "Baking and Pastry Techniques",
+                        "ru": "Техники выпечки и кондитерского искусства",
+                        "tj": "Техникҳои нонпазӣ ва ширинисозӣ"
+                    },
+                    "condition": {
+                        "en": "Full-time and evening programs, internships at leading pastry shops, professional development courses.",
+                        "ru": "Дневное и вечернее отделение, практика в ведущих кондитерских, курсы повышения квалификации.",
+                        "tj": "Вақти пурра ва нимрӯзӣ, амалиёт дар ширинисозиҳои пешқадам, курсҳои такмили ихтисос."
+                    },
+                    "location": {
+                        "en": "Dushanbe",
+                        "ru": "Душанбе",
+                        "tj": "Душанбе"
+                    },
+                    "payment": {
+                        "en": "Around 3,500 somoni per year",
+                        "ru": "Около 3,500 сомони в год",
+                        "tj": "Такрибан 3,500 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Pastry Heritage at Khujand State University",
+                        "ru": "Мастера кондитерского дела в Худжандском государственном университете",
+                        "tj": "Мирас ва ҳунари ширинисозӣ дар Донишгоҳи давлатии Худжанд"
+                    },
+                    "programm": {
+                        "en": "Baking and Pastry Arts Conservation",
+                        "ru": "Сохранение искусства выпечки и кондитерского дела",
+                        "tj": "Меҳандисии нонпазӣ ва нигоҳдории санъати ширинисозӣ"
+                    },
+                    "condition": {
+                        "en": "Full-time program, state diploma, access to pastry research materials.",
+                        "ru": "Дневное отделение, диплом государственного образца, доступ к материалам по кондитерскому искусству.",
+                        "tj": "Вақти пурра, дипломи давлатӣ, дастрасӣ ба маводи таҳқиқоти ширинисозӣ."
+                    },
+                    "location": {
+                        "en": "Khujand",
+                        "ru": "Худжанд",
+                        "tj": "Худжанд"
+                    },
+                    "payment": {
+                        "en": "Around 4,000 somoni per year",
+                        "ru": "Около 4,000 сомони в год",
+                        "tj": "Такрибан 4,000 сомонӣ дар як сол"
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": {
+                        "en": "Pastry Engineering at Penjikent Culinary College",
+                        "ru": "Инженерия кондитерских изделий в Кулинарном колледже Пенджикента",
+                        "tj": "Меҳандисии ширинисозӣ дар Коллеҷи кулинарии Пенҷикент"
+                    },
+                    "programm": {
+                        "en": "Cake Design and Confectionery Techniques",
+                        "ru": "Дизайн тортов и кондитерских изделий",
+                        "tj": "Тарҳрезии торту шириниҳои кондитерӣ"
+                    },
+                    "condition": {
+                        "en": "Full-time program, internships at pastry shops, employment opportunities in the food industry after graduation.",
+                        "ru": "Дневное отделение, практика в кондитерских, возможность трудоустройства в пищевой промышленности после окончания.",
+                        "tj": "Вақти пурра, амалиёт дар ширинисозиҳо, имконият барои кор ёфтан дар саноати ғизо пас аз хатм."
+                    },
+                    "location": {
+                        "en": "Penjikent",
+                        "ru": "Пенджикент",
+                        "tj": "Пенҷикент"
+                    },
+                    "payment": {
+                        "en": "Free for local residents, 1,500 somoni for non-residents",
+                        "ru": "Бесплатное обучение для местных жителей, 1,500 сомони для иногородних",
+                        "tj": "Барои сокинони маҳаллӣ ройгон, барои дигарон 1,500 сомонӣ"
+                    }
+                }
+            ],
+            "interviews": [
+                {
+                    "id": 1,
+                    "title": {
+                        "en": "Interview with Pastry Chef from France – Claire Dubois",
+                        "ru": "Интервью с кондитером из Франции – Клер Дюбуа",
+                        "tj": "Мусоҳиба бо кондитери Фаронса – Клер Дюбуа"
+                    },
+                    "quetion1": {
+                        "en": "— Claire, tell us about your work as a pastry chef.",
+                        "ru": "— Клер, расскажите о вашей работе кондитером.",
+                        "tj": "— Клер, дар бораи кори худ ҳамчун кондитер гӯед."
+                    },
+                    "answer1": {
+                        "en": "— I work as a pastry chef at a luxury hotel in Paris. My focus is on creating elegant and innovative desserts, using the finest ingredients. I specialize in French pastries like éclairs, macarons, and croissants. My work involves a lot of creativity, attention to detail, and collaboration with other chefs to ensure the highest quality.",
+                        "ru": "— Я работаю кондитером в роскошном отеле в Париже. Моя специализация — создание элегантных и инновационных десертов, с использованием лучших ингредиентов. Я специализируюсь на французских сладостях, таких как эклеры, макароны и круассаны. Моя работа требует творческого подхода, внимания к деталям и сотрудничества с другими поварами, чтобы обеспечить наивысшее качество.",
+                        "tj": "— Ман як кондитер дар як меҳмонхонаи люкс дар Париж кор мекунам. Ман ба эҷоди десертҳои аъло ва инноватсионӣ бо истифода аз беҳтарин маводҳои ғизоӣ таваҷҷӯҳ дорам. Ман дар шириниҳои фаронсавӣ, аз қабили эклерҳо, макаронҳо ва круассанҳо ихтисос дорам. Кори ман эҷодкорӣ, диққат ба тафсилот ва ҳамкорӣ бо дигар ошпазҳо барои таъмин кардани сифати баландро талаб мекунад."
+                    },
+                    "quetion2": {
+                        "en": "— How do you use modern techniques in your pastry creations?",
+                        "ru": "— Как вы используете современные технологии в создании ваших десертов?",
+                        "tj": "— Шумо чӣ гуна усулҳои муосирро дар эҷоди десертҳои худ истифода мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We use advanced techniques like molecular gastronomy to create unexpected textures and flavors in our pastries. I also incorporate 3D printing to design intricate sugar sculptures and decorations. These modern methods allow me to push the boundaries of traditional pastry making and create unique, avant-garde desserts.",
+                        "ru": "— Мы используем современные методы, такие как молекулярная гастрономия, чтобы создать неожиданные текстуры и вкусы в наших десертах. Я также использую 3D-печать для создания сложных сахарных скульптур и декораций. Эти современные методы позволяют мне раздвигать границы традиционного кондитерского искусства и создавать уникальные, авангардные десерты.",
+                        "tj": "— Мо аз усулҳои муосир, ба монанди гастрономияи молекулӣ, барои эҷоди матнҳо ва таъмҳои ғайричашмдошт дар десертҳоямон истифода мебарем. Ман инчунин аз чопи 3D барои тарҳрезии ҳайкалчачаҳои шикасташавандаи шакар ва ороишот истифода мебарем. Ин усулҳои муосир ба ман имкон медиҳанд, ки марзҳои санъати кондитериро васеъ кунам ва десертҳои аниматсионӣ ва авангард созам."
+                    },
+                    "avtor": {
+                        "en": "Claire Dubois",
+                        "ru": "Клер Дюбуа",
+                        "tj": "Клер Дюбуа"
+                    },
+                    "location": {
+                        "en": "Paris, France",
+                        "ru": "Париж, Франция",
+                        "tj": "Париж, Фаронса"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": {
+                        "en": "Interview with Pastry Chef from Italy – Marco Rossi",
+                        "ru": "Интервью с кондитером из Италии – Марко Росси",
+                        "tj": "Мусоҳиба бо кондитери Италия – Марко Росси"
+                    },
+                    "quetion1": {
+                        "en": "— Marco, tell us about the importance of pastry in Italian culture.",
+                        "ru": "— Марко, расскажите, какова роль кондитерского искусства в итальянской культуре.",
+                        "tj": "— Марко, барои фарҳанги Италия ҳунари кондитерӣ чӣ аҳамият дорад?"
+                    },
+                    "answer1": {
+                        "en": "— Pastry is an integral part of Italian cuisine, from traditional tiramisu and cannoli to regional specialties. Our desserts represent the history, culture, and flavors of our country. In Italy, we place great emphasis on using seasonal ingredients and following traditional recipes, but we also like to experiment with new flavors and techniques.",
+                        "ru": "— Кондитерские изделия — неотъемлемая часть итальянской кухни, от традиционного тирамису и канноли до региональных особенностей. Наши десерты представляют собой историю, культуру и вкусы нашей страны. В Италии мы уделяем большое внимание использованию сезонных ингредиентов и следованию традиционным рецептам, но также любим экспериментировать с новыми вкусами и техниками.",
+                        "tj": "— Шириниҳо ҷузъи ҷудонашавандаи ошпазии итолиёӣ мебошанд, аз тирамису ва канноли анъанавӣ то хусусиятҳои минтақавӣ. Десертҳои мо таърих, фарҳанг ва таъмҳои кишварамонро намоиш медиҳанд. Дар Италия мо ба истифодаи маводҳои мавсимӣ ва риояи рецептҳои анъанавӣ аҳамияти зиёд медиҳем, аммо мо инчунин дӯст медорем, ки бо таъмҳои нав ва усулҳои муосир озмоиш кунем."
+                    },
+                    "quetion2": {
+                        "en": "— How do you incorporate modern trends in pastry making?",
+                        "ru": "— Как вы учитываете современные тренды в кондитерском деле?",
+                        "tj": "— Шумо чӣ гуна трендҳои муосирро дар ҳунари ширинисозӣ ба кор мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— We incorporate modern trends like gluten-free and vegan pastries, as well as unique flavor combinations. Social media has also changed the way we present desserts, with many chefs using Instagram to share visually stunning pastries. We strive to create pastries that are not only delicious but also aesthetically pleasing.",
+                        "ru": "— Мы учитываем современные тенденции, такие как безглютеновые и веганские десерты, а также уникальные сочетания вкусов. Социальные сети также изменили способ представления десертов, многие повара используют Instagram, чтобы делиться визуально ошеломляющими десертами. Мы стремимся создавать десерты, которые не только вкусные, но и эстетически привлекательные.",
+                        "tj": "— Мо трендҳои муосир, ба монанди десертҳои бе глютен ва веганиро, ҳамчунин омезишҳои тафаккури ғайриоддӣ, дар назар мегирем. Равонаҳои иҷтимоӣ низ тарзи пешниҳоди десертҳоро тағйир доданд, ки бисёре аз ошпазҳо Instagram-ро барои ба нақл овардани шириниҳои визуалӣ истифода мебаранд. Мо кӯшиш мекунем, ки шириниҳоро эҷод кунем, ки на танҳо лазиз, балки зебо ҳам бошанд."
+                    },
+                    "avtor": {
+                        "en": "Marco Rossi",
+                        "ru": "Марко Росси",
+                        "tj": "Марко Росси"
+                    },
+                    "location": {
+                        "en": "Rome, Italy",
+                        "ru": "Рим, Италия",
+                        "tj": "Рим, Италия"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": {
+                        "en": "Interview with Pastry Chef from Japan – Yuki Tanaka",
+                        "ru": "Интервью с кондитером из Японии – Юки Танака",
+                        "tj": "Мусоҳиба бо кондитери Ҷопон – Юки Танака"
+                    },
+                    "quetion1": {
+                        "en": "— Yuki, how do you combine traditional Japanese sweets with modern pastry techniques?",
+                        "ru": "— Юки, как вы сочетаете традиционные японские сладости с современными техниками кондитерского дела?",
+                        "tj": "— Юки, шумо чӣ гуна шириниҳои анъанавии японӣ ва усулҳои муосири кондитериро якҷоя мекунед?"
+                    },
+                    "answer1": {
+                        "en": "— I love blending the delicate flavors of traditional Japanese sweets, like mochi and dorayaki, with the rich textures of Western-style pastries. Using modern techniques, I experiment with incorporating matcha, yuzu, and other unique ingredients into French and Italian desserts, creating fusion sweets that represent the best of both worlds.",
+                        "ru": "— Я люблю сочетать нежные вкусы традиционных японских сладостей, таких как мочи и дораяки, с богатой текстурой западных десертов. Используя современные техники, я экспериментирую с добавлением матча, юдзу и других уникальных ингредиентов в французские и итальянские десерты, создавая фьюжн-сладости, которые представляют лучшее из обоих миров.",
+                        "tj": "— Ман дӯст медорам, ки таъмҳои нарми шириниҳои анъанавии японӣ, ба монанди мочи ва дорякиро бо матоъи бойи шириниҳои ғарбиро омезиш диҳам. Бо истифода аз усулҳои муосир, ман бо илова кардани матча, юзу ва дигар маводҳои махсус ба десертҳои фаронсавӣ ва итолиёӣ озмоиш мекунам, то шириниҳои фьюжн эҷод кунам, ки беҳтаринҳоро аз ҳар ду ҷаҳон намояндагӣ мекунад."
+                    },
+                    "quetion2": {
+                        "en": "— How do you use modern technology in your pastry designs?",
+                        "ru": "— Как вы используете современные технологии в ваших кондитерских дизайнах?",
+                        "tj": "— Шумо чӣ гуна технологияҳои муосирро дар тарҳрезиҳои кондитерии худ истифода мебаред?"
+                    },
+                    "answer2": {
+                        "en": "— I use 3D printing to create intricate chocolate decorations and sugar art. Additionally, I use sous-vide and cryogenic freezing techniques to prepare ingredients in new ways, preserving their flavors and textures. Modern technology allows me to experiment with form and presentation, making each dessert a unique piece of art.",
+                        "ru": "— Я использую 3D-печать для создания сложных шоколадных украшений и сахарного искусства. Кроме того, я использую методы су-вид и криогенного замораживания для приготовления ингредиентов новыми способами, сохраняя их вкус и текстуру. Современные технологии позволяют мне экспериментировать с формой и подачей, превращая каждый десерт в уникальное произведение искусства.",
+                        "tj": "— Ман аз чопи 3D барои эҷоди ороишоти мураккаби шоколад ва санъати шакар истифода мебарам. Ғайр аз ин, ман аз усулҳои су-вид ва яхкунии криогенӣ барои омода кардани маводҳо бо усулҳои нав истифода мебарам, то таъм ва матоъҳои онҳоро нигоҳ дорем. Технологияҳои муосир ба ман имкон медиҳанд, ки бо шакл ва пешниҳоди десертҳо озмоиш кунам, ки ҳар десерт як шохаи хосияти санъат мебошад."
+                    },
+                    "avtor": {
+                        "en": "Yuki Tanaka",
+                        "ru": "Юки Танака",
+                        "tj": "Юки Танака"
+                    },
+                    "location": {
+                        "en": "Tokyo, Japan",
+                        "ru": "Токио, Япония",
+                        "tj": "Токио, Япония"
+                    }
+                }
+            ],
+            "experience": {
+                "en": "In the field of pastry, there are several stages: a junior pastry chef (1-3 years of experience) learns the basics of baking and pastry decoration, a mid-level pastry chef (3-5 years) confidently applies advanced techniques like sugar work, chocolate molding, and modern dessert presentations, a senior pastry chef (5+ years) leads pastry teams, creates innovative dessert menus, and may manage production in large kitchens, while a master pastry chef (10+ years) is renowned for their signature desserts, contributes to the development of new trends in the industry, and plays a key role in shaping culinary innovation and pastry art.",
+                "ru": "В области кондитерского искусства можно выделить несколько этапов: младший кондитер (1-3 года опыта) осваивает основы выпечки и декорирования десертов, кондитер средней квалификации (3-5 лет) уверенно использует продвинутые техники, такие как работа с сахаром, моделирование шоколада и современные способы подачи десертов, опытный кондитер (5+ лет) возглавляет команды кондитеров, разрабатывает инновационные десертные меню и может руководить производством в крупных кухнях, а кондитер-эксперт (10+ лет) прославлен своими фирменными десертами, вносит вклад в развитие новых трендов в отрасли и играет ключевую роль в формировании кулинарных инноваций и искусства кондитерского мастерства.",
+                "tj": "Дар соҳаи кондитерӣ чанд марҳила вуҷуд дорад: кондитери нав (1-3 сол таҷриба) асосҳои пухтани нон ва ороиш кардани десертҳоро меомӯзад, кондитери миёна (3-5 сол) бо боварӣ усулҳои пешрафта, аз қабили кор бо шакар, шаклсозии шоколад ва тарзҳои муосири пешниҳоди десертҳоро истифода мебарад, кондитери таҷрибадор (5+ сол) дастаҳои кондитершаро роҳбарӣ мекунад, менюи инноватсионӣ барои десертҳоро эҷод мекунад ва метавонад истеҳсолотро дар ошпазхонаҳои калон роҳбарӣ кунад, ва кондитери устод (10+ сол) барои десертҳои махсуси худ шӯҳрат дорад, ба рушду пешравии трендҳои нав дар санъат кӯмак мерасонад ва нақши калидӣ дар шакл додан ба навоварии кулинарӣ ва санъати кондитерӣ мебозад."
+            },
+            "history": {
+                "en": "The art of patisserie has evolved over centuries. In ancient times, sweets were often prepared by skilled cooks for the elite or religious ceremonies. In medieval Europe, confectioners began to create elaborate desserts, and sugar became a prized ingredient. During the Renaissance, patisserie flourished as trade routes brought new spices and techniques to Europe. The 18th century saw the rise of the modern pastry chef, as the art of making delicate pastries and desserts became an esteemed profession. In the 19th century, the industrial revolution brought new machinery and techniques that revolutionized the production of confections. In the 20th century, the growth of gastronomy as a culinary discipline led to a greater focus on creativity and presentation in patisserie. Today, pastry chefs continue to push the boundaries of their craft, using advanced technologies and new ingredients to create innovative desserts that cater to the tastes and dietary needs of a diverse global audience.",
+                "ru": "Искусство кондитерского дела развивалось на протяжении веков. В древние времена сладости часто готовились опытными поварами для элиты или религиозных обрядов. В Средневековой Европе кондитеры начали создавать изысканные десерты, и сахар стал ценным ингредиентом. В эпоху Ренессанса кондитерское искусство расцвело, так как торговые пути привнесли новые специи и техники в Европу. В XVIII веке стало развиваться современное искусство приготовления деликатных кондитерских изделий, и профессия кондитера получила признание. В XIX веке индустриальная революция принесла новые машины и техники, что радикально изменило производство сладких изделий. В XX веке рост гастрономии как кулинарной дисциплины привел к большему вниманию к творчеству и оформлению десертов. Сегодня кондитеры продолжают расширять границы своего ремесла, используя современные технологии и новые ингредиенты для создания инновационных десертов, которые отвечают вкусам и диетическим потребностям разнообразной мировой аудитории.",
+                "tj": "Ҳунари кондитерӣ дар тӯли асрҳо рушд ёфтааст. Дар замонҳои қадим, шириниҳо аксар вақт аз ҷониби ошпазони маҳир барои табақи элат ва ё маросимҳои мазҳабӣ омода мешуданд. Дар Аврупои асрҳои миёна, кондитериҳо шурӯъ карданд, ки десертҳои мураккаб созанд ва шакар як маводи арзишманд гардид. Дар давраи Ренессанс, санъати кондитерӣ рушд кард, зеро роҳҳои савдо хӯрокҳои нав ва усулҳои техникӣро ба Аврупо оварданд. Дар асри XVIII, санъати омода кардани пайравиҳои ҳассос рушд ёфт ва касби кондитерӣ ба як ихтисос шӯҳрат пайдо кард. Дар асри XIX, инқилоби саноатӣ бо техника ва мошинҳои нав таҳаввулоти амиқе дар истеҳсоли хӯрокҳои ширин ба вуҷуд овард. Дар асри XX, рушд кардани гастрономия ҳамчун як фанни кулинарӣ ба диққати бештар ба эҷод ва тарзи мукаммали десертҳо овард. Имрӯз, кондитерҳо бо истифода аз технологиҳои пешрафта ва маводҳои нав, марзҳои касби худро васеъ мекунанд, то десертҳои инноватсионӣ созанд, ки ба мазза ва эҳтиёҷоти диетикии аҳолии гуногуни ҷаҳон ҷавобгӯ ҳастанд."
+            },
             "diagram": [],
-            "active": [],
-            "needs": []
+            "active": {
+                "en": "At the same time, more than 60% of pastry chefs in Tajikistan have work experience, but only 20-30% of them update their knowledge and skills, particularly in the area of modern baking technologies and innovative dessert design methods.",
+                "ru": "При этом более 60% кондитеров в Таджикистане имеют опыт работы, но лишь 20-30% из них обновляют свои знания и навыки, особенно в области современных технологий выпечки и инновационных методов дизайна десертов.",
+                "tj": "Дар ҳамин ҳол, беш аз 60% кондитериҳо дар Таджикистон таҷрибаи корӣ доранд, вале танҳо 20-30% аз онҳо дониш ва маҳорати худро нав мекунанд, махсусан дар соҳаи технологияҳои муосири нонпазӣ ва усулҳои навоваронаи тарҳрезии десертҳо."
+            },
+            "needs": {
+                "en": "In Tajikistan, there is a shortage of pastry chefs, especially in rural areas, where about 30% of confectionery establishments face a lack of qualified staff. This is due to low salaries and limited opportunities for professional growth.",
+                "ru": "В Таджикистане наблюдается нехватка кондитеров, особенно в сельских районах, где около 30% кондитерских заведений испытывают дефицит квалифицированных кадров. Это связано с низкими зарплатами и ограниченными возможностями для профессионального роста.",
+                "tj": "Дар Таджикистон, дар минтақаҳои деҳот камбуди кондитериҳо мушоҳида мешавад, ки тақрибан 30% муассисаҳои кондитерӣ бо камбуди кадрҳои квалификатсияшуда рӯ ба рӯ мешаванд. Ин бо арзиши пасти маош ва имкониятҳои маҳдуди рушд дар соҳаи касбӣ вобаста аст."
+            }            
         },
         {
             "id": 5,
@@ -149,6 +1711,16 @@
             "diagram": [],
             "active": [],
             "needs": [] 
+        }
+    ],
+    "data": [
+        {
+            "id": 1,
+            "name": {
+                "en":"Classroom",
+                "ru": "Классный кабинет",
+                "tj": "Синфхона"
+            }
         }
     ]
 }
