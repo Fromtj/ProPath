@@ -133,15 +133,15 @@
             "images": [
                 {
                     "id":1,
-                    "img":"./src/assets/images/teacher1.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/0b645545-0e45-4451-bad4-4826d29df831/Leonardo_Phoenix_In_a_serene_forest_setting_a_group_of_student_3.jpg"
                 },
                 {
                     "id":2,
-                    "img":"./src/assets/images/teacher2.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/5c4e0d85-0f5a-4d6a-9ec1-fab9cfc02c89/Leonardo_Phoenix_In_a_serene_forest_setting_near_a_gentle_stre_2.jpg"
                 },
                 {
                     "id":3,
-                    "img":"./src/assets/images/teacher3.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/f88000da-431b-4440-b371-b2ccd3c4ff7f/Leonardo_Phoenix_A_welllit_modern_classroom_filled_with_studen_2.jpg"
                 }
             ],
             "learning": [
@@ -567,15 +567,15 @@
             "images": [
                 {
                     "id":1,
-                    "img":"./src/assets/images/astronomer3.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/a30e31a6-2f86-4564-841a-9e8dd3cc862f/Leonardo_Phoenix_A_breathtaking_highly_detailed_and_realistic_2.jpg"
                 },
                 {
                     "id":2,
-                    "img":"./src/assets/images/astronomer2.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/a30e31a6-2f86-4564-841a-9e8dd3cc862f/Leonardo_Phoenix_A_breathtaking_highly_detailed_and_realistic_1.jpg"
                 },
                 {
                     "id":3,
-                    "img":"./src/assets/images/astronomer1.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/da8d582c-4583-44c1-b55d-009853ae7834/Leonardo_Phoenix_A_realistic_depiction_of_astronomers_in_a_vib_1.jpg"
                 }
             ],
             "learning": [
@@ -963,15 +963,15 @@
             "images": [
                 {
                     "id":1,
-                    "img":"./src/assets/images/architect3.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/d2fde94d-d596-40a7-b7dd-95784d3305fb/Leonardo_Phoenix_A_vintageinspired_highly_detailed_illustratio_0.jpg"
                 },
                 {
                     "id":2,
-                    "img":"./src/assets/images/architect2.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/1fafaebf-716b-4b31-8b4c-add7f2040864/Leonardo_Phoenix_A_dimly_lit_atmospheric_architectural_study_f_3.jpg"
                 },
                 {
                     "id":3,
-                    "img":"./src/assets/images/architect1.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/1fafaebf-716b-4b31-8b4c-add7f2040864/Leonardo_Phoenix_A_dimly_lit_atmospheric_architectural_study_f_1.jpg"
                 }
             ],
             "learning": [
@@ -1359,15 +1359,15 @@
             "images": [
                 {
                     "id":1,
-                    "img":"./src/assets/images/Confectioner1.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/73ac32eb-3990-46aa-92b7-c0094ebcea86/Leonardo_Phoenix_A_warm_and_inviting_confectionery_shop_bathed_2.jpg"
                 },
                 {
                     "id":2,                    
-                    "img":"./src/assets/images/Confectioner2.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/29641ace-bebf-41c6-be50-78c783b1d3e9/Leonardo_Phoenix_A_warm_and_inviting_confectionery_shop_with_s_1.jpg"
                 },
                 {
                     "id":3,
-                    "img":"./src/assets/images/Confectioner3.jpg"
+                    "img":"https://cdn.leonardo.ai/users/6ea40c89-54f1-4467-8b29-3842dfd862b0/generations/73ac32eb-3990-46aa-92b7-c0094ebcea86/Leonardo_Phoenix_A_warm_and_inviting_confectionery_shop_bathed_0.jpg"
                 }
             ],
             "learning": [

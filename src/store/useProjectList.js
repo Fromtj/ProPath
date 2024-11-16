@@ -12,19 +12,22 @@ export const useProjectList = create((set,get) => ({
             console.error(error);
         }
     },
-    translate: localStorage.getItem('translate'),
+    translate: localStorage.getItem('translate') || "ru",
     setTranslate: (value) => {
         localStorage.setItem("translate", value)
         set({translate: localStorage.getItem('translate')})
     
     },
-    data2: [],
-    get2: async () => {
+    dataByid:null,
+    getbyid: async (id) => {
+        console.log(id)
         try {
-            let {data} = await axios.get(api + "/data")
-            set({data2: data})
+            let {data} = await axios.get(api + "/projectList/" + id)
+            set({dataByid: data})
         } catch (error) {
             console.error(error);
         }
     },
+    byidx: null,
+    setByidx:(value) => set({byidx: value}),
 }))

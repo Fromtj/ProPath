@@ -7,14 +7,15 @@ import Typography from '@mui/material/Typography';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import AccordionActions from '@mui/material/AccordionActions';
 import Button from '@mui/material/Button'
+import { Link } from "react-router-dom";
 
 export default function ProjectList() {
-    let {get,data,translate} = useProjectList()
+    let {get,data,translate,setByidx} = useProjectList()
 
     useEffect(() => {
         get()
     },[])
-
+console.log(data)
     return(<>
     <div className="max-w-7xl m-auto">
     {data.map((e) => {
@@ -31,7 +32,9 @@ export default function ProjectList() {
           <Typography>{e.description[translate]}</Typography>
         </AccordionDetails>
         <AccordionActions>
-        <Button >More Information</Button>
+        <Link to={`/project_list/:${e.id}`}>
+            <Button onClick={() => setByidx(e.id)}>More Information</Button>
+            </Link>
         </AccordionActions>
       </Accordion>
         </div>
