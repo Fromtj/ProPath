@@ -1,5 +1,5 @@
 import { createBrowserRouter,RouterProvider } from "react-router-dom"
-import {Layout,Home,ProjectList, Byid} from "./routes/routes"
+import {Layout,Home,ProjectList, Byid, About} from "./routes/routes"
 import { Suspense } from "react"
 import Loader from "./loader/loader.jsx"
 
@@ -20,6 +20,10 @@ export default function App() {
             {
                 path: "/project_list/:id",
                 element: <Suspense fallback={<Loader/>}><Byid /></Suspense>
+            },
+            {
+                path: "/about",
+                element: <About />
             }
         ]
     }

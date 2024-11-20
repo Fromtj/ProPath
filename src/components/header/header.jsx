@@ -9,14 +9,15 @@ import Box from '@mui/material/Box';
 
 export default function Header() {
     const {translate,setTranslate}=useProjectList()
-    return(<section className="w-[100%]">
+    return(<section className="w-[100%]" style={{backgroundColor: "rgb(220,220,220,0.2)"}}>
     <header className="max-w-7xl flex items-center justify-between m-auto py-[15px]">
         <div>
             <img className="w-[160px]" src={logo} alt="" />
         </div>
-        <div className="3xl:flex 3xl:gap-[15px]">
-        <Link className="" to={"/"}>Home</Link>
-    <Link to={"/project_list"}>Proffession List</Link>
+        <div className="3xl:flex 3xl:gap-[15px] items-center text-amber-500">
+        <Link className="text-[18px]" to={"/"}>{translate == "en" ? "Home" : translate == "ru" ? "Главная" : "Асоси"}</Link>
+    <Link className="text-[18px]" to={"/project_list"}>{translate == "en" ? "Proffessional list" : translate == "ru" ? "Проффессии" : "Касбхо"}</Link>
+    <Link className="text-[18px]" to={"/about"}>{translate == "en" ? "About" : translate == "ru" ? "О нас" : "Дар бораи мо"}</Link>
         </div>
         <div>
        <Box width={"100px"}>

@@ -8,6 +8,9 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import AccordionActions from '@mui/material/AccordionActions';
 import Button from '@mui/material/Button'
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { indigo } from "@mui/material/colors";
 
 export default function ProjectList() {
     let {get,data,translate,setByidx} = useProjectList()
@@ -15,18 +18,25 @@ export default function ProjectList() {
     useEffect(() => {
         get()
     },[])
-console.log(data)
+useEffect(() => {
+  AOS.init({
+    disable: "phone",
+    duration: 700,
+    easing: "ease-out-cubic",
+  });
+}, []);
     return(<>
-    <div className="max-w-7xl m-auto">
+    <div className="max-w-7xl my-[70px] mx-auto">
     {data.map((e) => {
         return <div className="max-w-6xl" key={e.id}>
             <Accordion className="max-w-6xl">
         <AccordionSummary
+        data-aos="zoom-in-up"
           expandIcon={<ArrowDropDownIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>{e.title[translate]}</Typography>
+          <Typography className="text-amber-500 text-[18px]">{e.title[translate]}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>{e.description[translate]}</Typography>

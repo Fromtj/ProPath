@@ -30,4 +30,13 @@ export const useProjectList = create((set,get) => ({
     },
     byidx: null,
     setByidx:(value) => set({byidx: value}),
+    pop:[],
+    getPop: async () => {
+        try {
+            let {data} = await axios.get(api + "/popularProffessions")
+            set({pop: data})
+        } catch (error) {
+         console.error(error);   
+        }
+    }
 }))
